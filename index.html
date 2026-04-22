@@ -1,0 +1,1116 @@
+<!DOCTYPE html>
+<!-- saved from url=(0051)file:///C:/Users/juyeon/Downloads/verified_9_2.html -->
+<html lang="ko"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>홈런 문해력 검증 대표 예시</title>
+<link href="./홈런 문해력 검증 대표 예시_260421_최종_files/css2" rel="stylesheet">
+<style>
+:root {
+  --accent: #F04D22;
+  --bg: #f5f5f3;
+  --card: #ffffff;
+  --border: #e5e5e5;
+  --text: #1a1a1a;
+  --sub: #888;
+  --bw-c: #F04D22;
+  --so-c: #3B6FF0;
+  --ci-c: #2BA84A;
+  --hs-c: #7C3AED;
+  --gs-c: #D97706;
+  /* 하이라이트 */
+  --hi-green: #bbf7d0;
+  --hi-blue: #bfdbfe;
+  --hi-orange: #fecaca;
+  --hi-green-text: #065f46;
+  --hi-blue-text: #1e40af;
+  --hi-orange-text: #991b1b;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Nanum Square AC', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 14px;
+  line-height: 1.7;
+}
+.page { max-width: 860px; margin: 0 auto; padding: 48px 32px; }
+
+/* ── HEADER ── */
+.doc-eyebrow {
+  font-family: 'Poppins', sans-serif;
+  font-size: 9px; font-weight: 600;
+  letter-spacing: 2.5px; color: var(--accent);
+  text-transform: uppercase; margin-bottom: 10px;
+}
+.doc-title { font-size: 30px; font-weight: 800; margin-bottom: 6px; }
+.doc-sub { font-size: 13px; color: var(--sub); margin-bottom: 6px; }
+.doc-desc { font-size: 12px; color: var(--sub); margin-bottom: 28px; }
+.top-rule { border: none; border-top: 2px solid var(--accent); margin-bottom: 40px; }
+
+/* ── SECTION LABEL ── */
+.sec-wrap { display: flex; align-items: center; gap: 10px; margin: 44px 0 20px; }
+.sec-pill {
+  font-family: 'Poppins', sans-serif;
+  font-size: 10px; font-weight: 700;
+  padding: 4px 12px; border-radius: 4px;
+  color: #fff; letter-spacing: 1px;
+}
+.so-pill { background: var(--so-c); }
+.ci-pill { background: var(--ci-c); }
+.sec-name { font-size: 15px; font-weight: 800; }
+.sec-desc { font-size: 13px; color: var(--sub); }
+
+/* ── STUDENT CARD ── */
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  margin-bottom: 40px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+/* card header */
+.card-head {
+  padding: 18px 24px 16px;
+  display: flex; align-items: center;
+  justify-content: space-between; flex-wrap: wrap; gap: 8px;
+  border-bottom: 1px solid var(--border);
+}
+.sname { font-size: 20px; font-weight: 800; }
+.smeta { font-size: 13px; color: var(--sub); }
+.grade-tag {
+  font-size: 12px; font-weight: 700;
+  padding: 4px 12px; border-radius: 20px; color: #fff;
+  white-space: nowrap;
+}
+.g-low { background: #3B82F6; }
+.g-mid { background: #10B981; }
+.g-high { background: var(--accent); }
+.total-score {
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px; font-weight: 700; color: var(--accent);
+}
+
+/* score row */
+.score-row {
+  display: flex; gap: 0;
+  border-bottom: 1px solid var(--border);
+}
+.chip {
+  flex: 1;
+  display: flex; flex-direction: column;
+  align-items: center; padding: 12px 8px;
+  border-right: 1px solid var(--border);
+}
+.chip:last-child { border-right: none; }
+.chip-lbl { font-family:'Poppins',sans-serif; font-size:9px; font-weight:700; letter-spacing:.5px; margin-bottom:4px; opacity:.8; }
+.chip-val { font-family:'Poppins',sans-serif; font-size:22px; font-weight:700; }
+.c-bw{background:#FFF0EC;color:var(--bw-c);}
+.c-so{background:#EEF3FF;color:var(--so-c);}
+.c-ci{background:#EDFAF1;color:var(--ci-c);}
+.c-hs{background:#F5F0FF;color:var(--hs-c);}
+.c-gs{background:#FFFBEB;color:var(--gs-c);}
+
+/* pillar block */
+.pblock { padding: 18px 24px; border-bottom: 1px solid var(--border); }
+.pblock:last-child { border-bottom: none; }
+.phead { display:flex; align-items:center; gap:10px; margin-bottom:12px; }
+.ptag {
+  font-family:'Poppins',sans-serif; font-size:11px; font-weight:700;
+  padding:4px 12px; border-radius:4px; color:#fff; letter-spacing:.5px; flex-shrink:0;
+  min-width:36px; text-align:center;
+}
+.pt-bw{background:var(--bw-c);}
+.pt-so{background:var(--so-c);}
+.pt-ci{background:var(--ci-c);}
+.pt-hs{background:var(--hs-c);}
+.pt-gs{background:var(--gs-c);}
+.ptitle { font-size:15px; font-weight:800; flex:1; }
+.pscore { font-family:'Poppins',sans-serif; font-size:20px; font-weight:700; flex-shrink:0; }
+.ps-bw{color:var(--bw-c);}
+.ps-so{color:var(--so-c);}
+.ps-ci{color:var(--ci-c);}
+.ps-hs{color:var(--hs-c);}
+.ps-gs{color:var(--gs-c);}
+
+/* criteria */
+.crit {
+  display:inline-block; background:#f0f0f0; border-radius:6px;
+  padding:6px 12px; font-size:12px; color:#555; margin-bottom:14px; line-height:1.6;
+}
+.crit b { color:var(--accent); }
+
+/* BW bar */
+.bw-top { display:flex; align-items:baseline; gap:8px; margin-bottom:6px; }
+.bw-num { font-family:'Poppins',sans-serif; font-size:20px; font-weight:700; color:var(--bw-c); }
+.bw-score-lbl { font-size:13px; color:var(--sub); }
+.bw-thresh-lbl { font-size:11px; color:var(--sub); margin-left:auto; }
+.bar-wrap { position:relative; height:22px; background:#e8e8e8; border-radius:4px; overflow:visible; margin-bottom:5px; }
+.bar-fill { height:100%; background:var(--bw-c); border-radius:4px; }
+.bar-line { position:absolute; top:-4px; bottom:-4px; width:2px; background:#1a1a1a; z-index:2; }
+.bar-legend { font-size:11px; color:var(--sub); }
+.bar-legend b { color:#333; }
+
+/* original text with highlights */
+.orig-lbl { font-family:'Poppins',sans-serif; font-size:11px; font-weight:700; color:var(--sub); letter-spacing:1px; text-transform:uppercase; margin-bottom:8px; margin-top:14px; }
+.orig-box {
+  font-size:13.5px; line-height:2;
+  background:#fafafa; border:1px solid var(--border);
+  border-radius:6px; padding:14px 16px; margin-bottom:12px;
+}
+/* highlight spans */
+.hi-g { background:var(--hi-green); color:var(--hi-green-text); border-radius:3px; padding:1px 2px; }
+.hi-b { background:var(--hi-blue); color:var(--hi-blue-text); border-radius:3px; padding:1px 2px; }
+.hi-o { background:var(--hi-orange); color:var(--hi-orange-text); border-radius:3px; padding:1px 2px; }
+
+/* legend */
+.hi-legend { display:flex; gap:14px; margin-bottom:12px; flex-wrap:wrap; }
+.hl-item { display:flex; align-items:center; gap:5px; font-size:12px; }
+.hl-dot { width:14px; height:14px; border-radius:3px; flex-shrink:0; }
+.hl-g { background:var(--hi-green); }
+.hl-b { background:var(--hi-blue); }
+.hl-o { background:var(--hi-orange); }
+
+/* annotation list */
+.anno-list { display:flex; flex-direction:column; gap:4px; margin-bottom:12px; }
+.anno-row { display:flex; align-items:flex-start; gap:8px; padding:5px 0; border-bottom:1px dashed #eee; font-size:13px; }
+.anno-row:last-child { border-bottom:none; }
+.anno-icon { flex-shrink:0; width:16px; font-size:13px; }
+.anno-txt { flex:1; color:#333; }
+.anno-tag { font-size:11px; font-weight:700; padding:2px 8px; border-radius:12px; white-space:nowrap; flex-shrink:0; }
+.tag-g { background:var(--hi-green); color:var(--hi-green-text); }
+.tag-b { background:var(--hi-blue); color:var(--hi-blue-text); }
+.tag-o { background:var(--hi-orange); color:var(--hi-orange-text); }
+
+/* conclusion */
+.concl { border-left:3px solid; padding:9px 14px; border-radius:0 6px 6px 0; margin-top:8px; font-size:13px; font-weight:700; }
+.cl-so { border-color:var(--so-c); color:var(--so-c); background:#f0f4ff; }
+.cl-ci { border-color:var(--ci-c); color:var(--ci-c); background:#f0fdf4; }
+
+/* check/star notes */
+.cnote { font-size:12.5px; color:#444; margin-top:8px; padding-left:18px; position:relative; }
+.cnote::before { content:"✓"; color:var(--ci-c); font-weight:700; position:absolute; left:0; }
+.snote { font-size:12.5px; color:#444; margin-top:6px; padding-left:18px; position:relative; }
+.snote::before { content:"△"; color:var(--gs-c); position:absolute; left:0; }
+
+/* HS bars */
+.hs-bars { display:flex; flex-direction:column; gap:6px; margin-bottom:10px; }
+.hs-row { display:flex; align-items:center; gap:10px; }
+.hs-mo { font-family:'Poppins',sans-serif; font-size:11px; color:var(--sub); width:40px; flex-shrink:0; }
+.hs-track { flex:1; height:18px; background:#e8e8e8; border-radius:3px; overflow:hidden; }
+.hs-fill { height:100%; background:#2BA84A; border-radius:3px; }
+.hs-cnt { font-family:'Poppins',sans-serif; font-size:12px; font-weight:700; width:30px; text-align:right; }
+
+/* GS */
+.gs-track { height:26px; border-radius:4px; overflow:hidden; display:flex; margin-bottom:6px; }
+.gs-seg { height:100%; display:flex; align-items:center; justify-content:center; font-size:11px; font-weight:700; color:#fff; white-space:nowrap; overflow:hidden; padding:0 4px; }
+.gs-lit{background:#F59E0B;} .gs-nat{background:#3B82F6;} .gs-hum{background:#8B5CF6;}
+.gs-legend { font-size:12px; color:#555; }
+
+/* 종합의견 */
+.summary-block {
+  padding: 22px 24px 24px;
+  background: #fafafa;
+  border-top: 2px solid var(--accent);
+}
+.summary-title {
+  font-size: 10px; font-weight: 700;
+  color: var(--accent); margin-bottom: 16px;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1.5px; text-transform: uppercase;
+}
+.summary-cols { display: flex; gap: 24px; }
+.summary-col { flex: 1; min-width: 0; }
+.summary-col-title {
+  font-size: 13px; font-weight: 800;
+  color: #333; margin-bottom: 8px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #ddd;
+}
+.summary-col-body { font-size: 13px; color: #555; line-height: 1.85; }
+.concl-desc {
+  font-size: 12.5px; color: #555; margin-top: 8px;
+  font-weight: 400; line-height: 1.7;
+  padding: 8px 12px;
+  background: #f8f8f8;
+  border-radius: 4px;
+}
+
+/* footer */
+.footer { margin-top:48px; padding-top:20px; border-top:1px solid var(--border); font-size:11px; color:var(--sub); font-family:'Poppins',sans-serif; text-align:center; }
+</style>
+</head>
+<body>
+<div class="page">
+
+<div class="doc-eyebrow">HOMERUN LITERACY ANALYTICS · SCORING RATIONALE · V3</div>
+<h1 class="doc-title">문해력 검증 대표 예시</h1>
+<p class="doc-sub">5-Pillar 전체 채점 근거 · 초중고 점수별</p>
+<p class="doc-desc">9개 예시 · BW 단어수 시각화 + SO·CI 원문 하이라이팅 + HS 월별 바 + GS 장르 분포 + 종합 공식</p>
+<hr class="top-rule">
+
+
+
+<!-- ────────────────────────────────────────
+     1. 김예인 초2 후기
+──────────────────────────────────────── -->
+<div class="card">
+  <div class="card-head">
+    <div>
+      <div class="sname">김예인 <span style="font-size:14px;font-weight:400;color:var(--sub)">초2 · 후기 &nbsp;📚 왕자와 거지 1 (출판사 무관)</span></div>
+    </div>
+    <div style="display:flex;align-items:center;gap:12px;">
+      <span class="grade-tag g-low">저학년 (초1·2)</span>
+      <span class="total-score">73.6점</span>
+    </div>
+  </div>
+
+  <div class="score-row">
+    <div class="chip c-bw"><span class="chip-lbl">BW ×0.25</span><span class="chip-val">80</span></div>
+    <div class="chip c-so"><span class="chip-lbl">SO ×0.25</span><span class="chip-val">85</span></div>
+    <div class="chip c-ci"><span class="chip-lbl">CI ×0.30</span><span class="chip-val">70</span></div>
+    <div class="chip c-hs"><span class="chip-lbl">HS ×0.10</span><span class="chip-val">61</span></div>
+    <div class="chip c-gs"><span class="chip-lbl">GS ×0.10</span><span class="chip-val">70</span></div>
+  </div>
+
+  <!-- BW -->
+  <div class="pblock">
+    <div class="phead"><span class="ptag pt-bw">BW</span><span class="ptitle">어휘·서술력</span><span class="pscore ps-bw">80점</span></div>
+    <div class="crit">저학년 (초1·2) &nbsp;<b>100점: 80개↑ | 80점: 60~79개 | 60점: 45~59개 | 40점: 44개↓</b></div>
+    <div class="bw-top">
+      <span class="bw-num">63단어</span><span class="bw-score-lbl">80점</span>
+      <span class="bw-thresh-lbl">100점 기준 80개</span>
+    </div>
+    <div class="bar-wrap"><div class="bar-fill" style="width:78%"></div><div class="bar-line" style="left:calc(78% + 14px)"></div></div>
+    <div class="bar-legend"><b>■</b> 실제 단어수 &nbsp;|&nbsp; 100점 기준선</div>
+    <div class="orig-lbl">원문 (한국어 단어 카운트)</div>
+    <div class="orig-box">나는 왕자와 거지라는 책을 읽었다. 그 책의 핵심 내용은 왕자 에드워드와 거지 톰이 만나 얼굴이 쌍둥이처럼 똑같아서 한 번 옷을 바꿔 입어 보았는데 왕자가 "내가 바깥 구경 좀 할 테니까 네가 그 동안만 왕자 노릇 좀 해 줘!"라고 말해서 큰일이 벌어지는 이야기다. 가장 기억에 남는 장면은 톰이 왕이 됐을 때 에드워드는 정말 속상하고 화났을 것 같다. 그리고 나라면 정말 억울했을 것 같다.</div>
+    <p class="cnote">63단어로 저학년 (초1·2) 80점 구간에 해당합니다. (100점 기준 80개↑)</p>
+  </div>
+
+  <!-- SO -->
+  <div class="pblock">
+    <div class="phead"><span class="ptag pt-so">SO</span><span class="ptitle">논리·구조력</span><span class="pscore ps-so">85점</span></div>
+    <div class="crit">저학년 (초1·2) &nbsp;<b>100점: 처음부터 끝까지 주제 일관 | 85점: 1~2문장 이탈 | 70점: 절반만 연결 | 40점: 내용 나열</b></div>
+    <div class="hi-legend">
+      <div class="hl-item"><div class="hl-dot hl-g"></div>주제 기여</div>
+      <div class="hl-item"><div class="hl-dot hl-b"></div>자기 경험 연결</div>
+      <div class="hl-item"><div class="hl-dot hl-o"></div>주제 이탈</div>
+    </div>
+    <div class="orig-box">
+      <span class="hi-g">나는 왕자와 거지라는 책을 읽었다</span> <span class="hi-g">그 책의 핵심 내용은 왕자 에드워드와 거지 톰이 만나 얼굴이 쌍둥이처럼 똑같아서 한 번 옷을 바꿔 입어 보았는데 왕자가 "내가 바깥 구경 좀 할 테니까 네가 그 동안만 왕자 노릇 좀 해 줘!"라고 말해서 큰일이 벌어지는 이야기다</span> <span class="hi-g">가장 기억에 남는 장면은 톰이 왕이 됐을 때 에드워드는 정말 속상하고 화났을 것 같다</span> <span class="hi-b">그리고 나라면 정말 억울했을 것 같다</span>
+    </div>
+    <div class="anno-list">
+      <div class="anno-row"><span class="anno-icon">✓</span><span class="anno-txt">나는 왕자와 거지라는 책을 읽었다</span><span class="anno-tag tag-g">내용 서술</span></div>
+      <div class="anno-row"><span class="anno-icon">✓</span><span class="anno-txt">그 책의 핵심 내용은 왕자 에드워드와 거지 톰이 만나...</span><span class="anno-tag tag-g">내용 서술</span></div>
+      <div class="anno-row"><span class="anno-icon">✓</span><span class="anno-txt">가장 기억에 남는 장면은 톰이 왕이 됐을 때 에드워드는 정말 속상하고 화났을 것 같다</span><span class="anno-tag tag-g">내용 서술</span></div>
+      <div class="anno-row"><span class="anno-icon">★</span><span class="anno-txt">그리고 나라면 정말 억울했을 것 같다</span><span class="anno-tag tag-b">자기 경험 연결</span></div>
+    </div>
+    <div class="concl cl-so">SO 채점 결론 &nbsp;—&nbsp; 1~2문장 이탈 (1~2문장 이탈)</div>
+    <div class="concl-desc">책 내용을 안정적으로 서술하면서 자기 경험 연결이 1~2문장 범위 내에 있습니다. 주제 흐름이 전반적으로 유지되어 85점에 해당합니다.</div>
+  </div>
+
+  <!-- CI -->
+  <div class="pblock">
+    <div class="phead"><span class="ptag pt-ci">CI</span><span class="ptitle">비판·사고력</span><span class="pscore ps-ci">70점</span></div>
+    <div class="crit">저학년 (초1·2) &nbsp;<b>100점: 의견+이유1개 | 85점: 의견+구체장면+자기경험 | 70점: 의견+구체장면 | 55점: 의견만 | 35점: 줄거리만</b></div>
+    <div class="hi-legend">
+      <div class="hl-item"><div class="hl-dot hl-g"></div>줄거리·사실 서술</div>
+      <div class="hl-item"><div class="hl-dot hl-b"></div>의견·경험·사회맥락</div>
+      <div class="hl-item"><div class="hl-dot hl-o"></div>점수 제한</div>
+    </div>
+    <div class="orig-box">
+      <span class="hi-g">나는 왕자와 거지라는 책을 읽었다</span> <span class="hi-g">그 책의 핵심 내용은 왕자 에드워드와 거지 톰이 만나 얼굴이 쌍둥이처럼 똑같아서 한 번 옷을 바꿔 입어 보았는데 왕자가 "내가 바깥 구경 좀 할 테니까 네가 그 동안만 왕자 노릇 좀 해 줘!"라고 말해서 큰일이 벌어지는 이야기다</span> <span class="hi-g">가장 기억에 남는 장면은 톰이 왕이 됐을 때 에드워드는 정말 속상하고 화났을 것 같다</span> <span class="hi-b">그리고 나라면 정말 억울했을 것 같다</span>
+    </div>
+    <div class="anno-list">
+      <div class="anno-row"><span class="anno-icon">✓</span><span class="anno-txt">나는 왕자와 거지라는 책을 읽었다 ~ 큰일이 벌어지는 이야기다</span><span class="anno-tag tag-g">줄거리·사실 서술</span></div>
+      <div class="anno-row"><span class="anno-icon">✓</span><span class="anno-txt">가장 기억에 남는 장면은 톰이 왕이 됐을 때 에드워드는 정말 속상하고 화났을 것 같다</span><span class="anno-tag tag-g">줄거리·사실 서술</span></div>
+      <div class="anno-row"><span class="anno-icon">★</span><span class="anno-txt">그리고 나라면 정말 억울했을 것 같다</span><span class="anno-tag tag-b">의견·경험·사회맥락</span></div>
+    </div>
+    <div class="concl cl-ci">CI 채점 결론 &nbsp;—&nbsp; 의견+구체장면 (70점)</div>
+    <div class="concl-desc">기억에 남는 구체적인 장면을 제시하고 자신의 감정·의견을 연결했습니다. 그러나 이유 설명이나 사회맥락 연결이 없어 70점입니다.</div>
+  </div>
+
+  <!-- HS -->
+  <div class="pblock">
+    <div class="phead"><span class="ptag pt-hs">HS</span><span class="ptitle">독서 습관</span><span class="pscore ps-hs">61점</span></div>
+    <div class="crit">HS 기준 (전 학년 동일) &nbsp;<b>월별 독서 편차(CV) 자동 계산 · HS = max(40, min(100, 100 − CV × 60))</b></div>
+    <div class="hs-bars">
+      <div class="hs-row"><span class="hs-mo">26-01</span><div class="hs-track"><div class="hs-fill" style="width:44%"></div></div><span class="hs-cnt">12건</span></div>
+      <div class="hs-row"><span class="hs-mo">26-02</span><div class="hs-track"><div class="hs-fill" style="width:100%"></div></div><span class="hs-cnt">27건</span></div>
+      <div class="hs-row"><span class="hs-mo">26-03</span><div class="hs-track"><div class="hs-fill" style="width:93%"></div></div><span class="hs-cnt">25건</span></div>
+      <div class="hs-row"><span class="hs-mo">26-04</span><div class="hs-track"><div class="hs-fill" style="width:15%"></div></div><span class="hs-cnt">4건</span></div>
+    </div>
+    <p class="cnote">CV(변동계수) 높음 (편차 큼) → HS 61점</p>
+    <p class="snote">최다 27건 vs 최소 4건 — 월별 편차가 큰 편입니다.</p>
+  </div>
+
+  <!-- GS -->
+  <div class="pblock">
+    <div class="phead"><span class="ptag pt-gs">GS</span><span class="ptitle">장르 균형</span><span class="pscore ps-gs">70점</span></div>
+    <div class="crit">GS 기준 (전 학년 동일) &nbsp;<b>100점: 몰입→확장 | 70점: 몰입만 | 60점: 분산형 | 40점: 무패턴</b></div>
+    <div style="font-size:12px;color:var(--sub);margin-bottom:5px;">장르 분포 (총 68건)</div>
+    <div class="gs-track"><div class="gs-seg gs-lit" style="width:97%">문학 66</div><div class="gs-seg gs-nat" style="width:3%">자연 2</div></div>
+    <div class="gs-legend">■ 문학 66건 (97%) &nbsp;■ 자연과학 2건 (3%)</div>
+    <p class="cnote" style="margin-top:10px;">슬라이딩 윈도우(최근 20% 구간) → "몰입만" 패턴 → 70점</p>
+    <p class="snote">다른 장르로의 확장이 아직 일어나지 않았습니다. 비문학이 늘면 100점으로 올라갑니다.</p>
+  </div>
+  <!-- 종합의견 -->
+  <div class="summary-block">
+    <div class="summary-cols">
+      <div class="summary-col">
+        <div class="summary-col-title">종합의견</div>
+        <div class="summary-col-body">줄거리를 핵심 위주로 깔끔하게 정리했고, 인물의 감정을 자신과 연결 짓는 시도가 나타납니다. 저학년 후기 단계에 맞는 안정적인 독후 표현력을 보여주고 있어요. 책 내용을 이해하고 자신의 상황에 빗대어 생각하는 능력이 자라고 있습니다.</div>
+      </div>
+      <div class="summary-col">
+        <div class="summary-col-title">앞으로 이렇게 해보세요</div>
+        <div class="summary-col-body">"나라면 정말 억울했을 것 같다"에서 멈추지 말고, 왜 억울한지 이유를 한 문장 더 써보세요. 예를 들어 "왜냐하면 내가 아무 잘못도 하지 않았는데 왕자리를 빼앗겼기 때문이다"처럼요. 이유 한 줄이 붙으면 CI 점수가 훨씬 올라갑니다.</div>
+      </div>
+    </div>
+  </div>
+</div><!-- /김예인 -->
+
+
+<!-- ────────────────────────────────────────
+     2. 박예준 초2 중기
+──────────────────────────────────────── -->
+<div class="card">
+  <div class="card-head">
+    <div><div class="sname">박예준 <span style="font-size:14px;font-weight:400;color:var(--sub)">초2 · 중기 &nbsp;📚 감자 감자 뿅 (킨더랜드)</span></div></div>
+    <div style="display:flex;align-items:center;gap:12px;"><span class="grade-tag g-low">저학년 (초1·2)</span><span class="total-score">80.0점</span></div>
+  </div>
+  <div class="score-row">
+    <div class="chip c-bw"><span class="chip-lbl">BW ×0.25</span><span class="chip-val">80</span></div>
+    <div class="chip c-so"><span class="chip-lbl">SO ×0.25</span><span class="chip-val">85</span></div>
+    <div class="chip c-ci"><span class="chip-lbl">CI ×0.30</span><span class="chip-val">100</span></div>
+    <div class="chip c-hs"><span class="chip-lbl">HS ×0.10</span><span class="chip-val">70</span></div>
+    <div class="chip c-gs"><span class="chip-lbl">GS ×0.10</span><span class="chip-val">70</span></div>
+  </div>
+  <div class="pblock">
+    <div class="phead"><span class="ptag pt-bw">BW</span><span class="ptitle">어휘·서술력</span><span class="pscore ps-bw">80점</span></div>
+    <div class="crit">저학년 (초1·2) &nbsp;<b>100점: 80개↑ | 80점: 60~79개 | 60점: 45~59개 | 40점: 44개↓</b></div>
+    <div class="bw-top"><span class="bw-num">65단어</span><span class="bw-score-lbl">80점</span><span class="bw-thresh-lbl">100점 기준 80개</span></div>
+    <div class="bar-wrap"><div class="bar-fill" style="width:81%"></div><div class="bar-line" style="left:calc(81% + 14px)"></div></div>
+    <div class="bar-legend"><b>■</b> 실제 단어수 &nbsp;|&nbsp; 100점 기준선</div>
+    <div class="orig-lbl">원문 (한국어 단어 카운트)</div>
+    <div class="orig-box">감자에 싹이 났어요. 그 싹을 감추고 싶었지만, 또 다시 났지요. 멋지게 가리고 다녔는데, 목욕탕에 가보니 모든 감자들이 싹이 나있었고, 아무도 내 몸에 대해 신경쓰지 않는다는걸 알게 되었어요. 그 이후에 감자의 마음이 편해져보였어요. 감자야, 나의 안좋은 부분을 애써 감추려고 하지마. 그 부분까지도 너의 멋진 모습이 될 수 있을테니까. 나도 친구들에게 안좋은 모습을 보여주기 싫을때가 있어. 하지만, 나의 안좋은 모습을 고치면서 나를 더 아름답게 만들면 되지 않을까?</div>
+    <p class="cnote">65단어로 저학년 (초1·2) 80점 구간에 해당합니다. (100점 기준 80개↑)</p>
+  </div>
+  <div class="pblock">
+    <div class="phead"><span class="ptag pt-so">SO</span><span class="ptitle">논리·구조력</span><span class="pscore ps-so">85점</span></div>
+    <div class="crit">저학년 (초1·2) &nbsp;<b>100점: 처음부터 끝까지 주제 일관 | 85점: 1~2문장 이탈 | 70점: 절반만 연결 | 40점: 내용 나열</b></div>
+    <div class="hi-legend"><div class="hl-item"><div class="hl-dot hl-g"></div>주제 기여</div><div class="hl-item"><div class="hl-dot hl-b"></div>자기 경험 연결</div><div class="hl-item"><div class="hl-dot hl-o"></div>주제 이탈</div></div>
+    <div class="orig-box">
+      <span class="hi-g">감자에 싹이 났어요</span> <span class="hi-g">그 싹을 감추고 싶었지만, 또 다시 났지요</span> <span class="hi-g">멋지게 가리고 다녔는데, 목욕탕에 가보니 모든 감자들이 싹이 나있었고, 아무도 내 몸에 대해 신경쓰지 않는다는걸 알게 되었어요</span> <span class="hi-g">그 이후에 감자의 마음이 편해져보였어요</span> <span class="hi-b">감자야, 나의 안좋은 부분을 애써 감추려고 하지마. 그 부분까지도 너의 멋진 모습이 될 수 있을테니까. 나도 친구들에게 안좋은 모습을 보여주기 싫을때가 있어. 하지만, 나의 안좋은 모습을 고치면서 나를 더 아름답게 만들면 되지 않을까?</span>
+    </div>
+    <div class="anno-list">
+      <div class="anno-row"><span class="anno-icon">✓</span><span class="anno-txt">감자에 싹이 났어요 ~ 그 이후에 감자의 마음이 편해져보였어요</span><span class="anno-tag tag-g">내용 서술</span></div>
+      <div class="anno-row"><span class="anno-icon">★</span><span class="anno-txt">감자야, 나의 안좋은 부분을 애써 감추려고 하지마...</span><span class="anno-tag tag-b">자기 경험 연결</span></div>
+    </div>
+    <div class="concl cl-so">SO 채점 결론 &nbsp;—&nbsp; 1~2문장 이탈 (1~2문장 이탈)</div>
+    <div class="concl-desc">책 내용을 안정적으로 서술하면서 자기 경험 연결이 1~2문장 범위 내에 있습니다. 주제 흐름이 전반적으로 유지되어 85점에 해당합니다.</div>
+  </div>
+  <div class="pblock">
+    <div class="phead"><span class="ptag pt-ci">CI</span><span class="ptitle">비판·사고력</span><span class="pscore ps-ci">100점</span></div>
+    <div class="crit">저학년 (초1·2) &nbsp;<b>100점: 의견+이유1개 | 85점: 의견+구체장면+자기경험 | 70점: 의견+구체장면 | 55점: 의견만 | 35점: 줄거리만</b></div>
+    <div class="hi-legend"><div class="hl-item"><div class="hl-dot hl-g"></div>줄거리·사실 서술</div><div class="hl-item"><div class="hl-dot hl-b"></div>의견·경험·사회맥락</div></div>
+    <div class="orig-box">
+      <span class="hi-g">감자에 싹이 났어요</span> <span class="hi-g">그 싹을 감추고 싶었지만, 또 다시 났지요</span> <span class="hi-g">멋지게 가리고 다녔는데, 목욕탕에 가보니 모든 감자들이 싹이 나있었고, 아무도 내 몸에 대해 신경쓰지 않는다는걸 알게 되었어요</span> <span class="hi-g">그 이후에 감자의 마음이 편해져보였어요</span> <span class="hi-b">감자야, 나의 안좋은 부분을 애써 감추려고 하지마. 그 부분까지도 너의 멋진 모습이 될 수 있을테니까. 나도 친구들에게 안좋은 모습을 보여주기 싫을때가 있어. 하지만, 나의 안좋은 모습을 고치면서 나를 더 아름답게 만들면 되지 않을까?</span>
+    </div>
+    <div class="anno-list">
+      <div class="anno-row"><span class="anno-icon">✓</span><span class="anno-txt">감자에 싹이 났어요 ~ 그 이후에 감자의 마음이 편해져보였어요</span><span class="anno-tag tag-g">줄거리·사실 서술</span></div>
+      <div class="anno-row"><span class="anno-icon">★</span><span class="anno-txt">감자야, 나의 안좋은 부분을 애써 감추려고 하지마... 나를 더 아름답게 만들면 되지 않을까?</span><span class="anno-tag tag-b">의견·경험·사회맥락</span></div>
+    </div>
+    <div class="concl cl-ci">CI 채점 결론 &nbsp;—&nbsp; 의견+이유1개</div>
+    <div class="concl-desc">의견과 함께 그 이유를 한 가지 이상 서술했습니다. 저학년 기준 최고 점수 요건을 충족합니다. 100점입니다.</div>
+  </div>
+  <div class="pblock">
+    <div class="phead"><span class="ptag pt-hs">HS</span><span class="ptitle">독서 습관</span><span class="pscore ps-hs">70점</span></div>
+    <div class="crit">HS 기준 (전 학년 동일) &nbsp;<b>월별 독서 편차(CV) 자동 계산 · HS = max(40, min(100, 100 − CV × 60))</b></div>
+    <div class="hs-bars">
+      <div class="hs-row"><span class="hs-mo">25-10</span><div class="hs-track"><div class="hs-fill" style="width:11%"></div></div><span class="hs-cnt">3건</span></div>
+      <div class="hs-row"><span class="hs-mo">25-11</span><div class="hs-track"><div class="hs-fill" style="width:75%"></div></div><span class="hs-cnt">21건</span></div>
+      <div class="hs-row"><span class="hs-mo">25-12</span><div class="hs-track"><div class="hs-fill" style="width:75%"></div></div><span class="hs-cnt">21건</span></div>
+      <div class="hs-row"><span class="hs-mo">26-01</span><div class="hs-track"><div class="hs-fill" style="width:100%"></div></div><span class="hs-cnt">28건</span></div>
+      <div class="hs-row"><span class="hs-mo">26-02</span><div class="hs-track"><div class="hs-fill" style="width:96%"></div></div><span class="hs-cnt">27건</span></div>
+    </div>
+    <p class="cnote">CV(변동계수) 보통 → HS 70점</p>
+    <p class="snote">최다 28건 vs 최소 3건 — 월별 편차가 큰 편입니다.</p>
+  </div>
+  <div class="pblock">
+    <div class="phead"><span class="ptag pt-gs">GS</span><span class="ptitle">장르 균형</span><span class="pscore ps-gs">70점</span></div>
+    <div class="crit">GS 기준 (전 학년 동일) &nbsp;<b>100점: 몰입→확장 | 70점: 몰입만 | 60점: 분산형 | 40점: 무패턴</b></div>
+    <div style="font-size:12px;color:var(--sub);margin-bottom:5px;">장르 분포 (총 100건)</div>
+    <div class="gs-track"><div class="gs-seg gs-lit" style="width:88%">문학 88</div><div class="gs-seg gs-nat" style="width:12%">자연 12</div></div>
+    <div class="gs-legend">■ 문학 88건 (88%) &nbsp;■ 자연과학 12건 (12%)</div>
+    <p class="cnote" style="margin-top:10px;">슬라이딩 윈도우(최근 20% 구간) → "몰입만" 패턴 → 70점</p>
+    <p class="snote">다른 장르로의 확장이 아직 일어나지 않았습니다. 비문학이 늘면 100점으로 올라갑니다.</p>
+  </div>
+  <!-- 종합의견 -->
+  <div class="summary-block">
+    <div class="summary-cols">
+      <div class="summary-col">
+        <div class="summary-col-title">종합의견</div>
+        <div class="summary-col-body">책 내용을 단순히 요약하는 데 그치지 않고 등장인물에게 직접 말을 건네는 독창적인 방식으로 자신의 생각을 표현했습니다. "나도 친구들에게 안좋은 모습을 보여주기 싫을 때가 있어"라는 자기 고백이 진심으로 느껴지며, CI 100점이 자연스럽게 나오는 글입니다.</div>
+      </div>
+      <div class="summary-col">
+        <div class="summary-col-title">앞으로 이렇게 해보세요</div>
+        <div class="summary-col-body">글의 구성이 훌륭해요. 이제는 단어 수를 80개 이상으로 늘려 BW 100점에 도전해보세요. 책 속 장면을 한 가지 더 구체적으로 묘사하면 자연스럽게 단어 수가 늘어납니다. 지금처럼 자신의 이야기를 솔직하게 쓰는 습관을 계속 유지하세요.</div>
+      </div>
+    </div>
+  </div>
+</div><!-- /박예준 -->
+
+
+<!-- ────────────────────────────────────────
+     3. 곽로이 초2 초기
+──────────────────────────────────────── -->
+<div class="card">
+  <div class="card-head">
+    <div><div class="sname">곽로이 <span style="font-size:14px;font-weight:400;color:var(--sub)">초2 · 초기 &nbsp;📚 너무 시끄러워 (계수나무)</span></div></div>
+    <div style="display:flex;align-items:center;gap:12px;"><span class="grade-tag g-low">저학년 (초1·2)</span><span class="total-score">62.4점</span></div>
+  </div>
+  <div class="score-row">
+    <div class="chip c-bw"><span class="chip-lbl">BW ×0.25</span><span class="chip-val">60</span></div>
+    <div class="chip c-so"><span class="chip-lbl">SO ×0.25</span><span class="chip-val">70</span></div>
+    <div class="chip c-ci"><span class="chip-lbl">CI ×0.30</span><span class="chip-val">55</span></div>
+    <div class="chip c-hs"><span class="chip-lbl">HS ×0.10</span><span class="chip-val">58</span></div>
+    <div class="chip c-gs"><span class="chip-lbl">GS ×0.10</span><span class="chip-val">70</span></div>
+  </div>
+  <div class="pblock">
+    <div class="phead"><span class="ptag pt-bw">BW</span><span class="ptitle">어휘·서술력</span><span class="pscore ps-bw">60점</span></div>
+    <div class="crit">저학년 (초1·2) &nbsp;<b>100점: 80개↑ | 80점: 60~79개 | 60점: 45~59개 | 40점: 44개↓</b></div>
+    <div class="bw-top"><span class="bw-num">53단어</span><span class="bw-score-lbl">60점</span><span class="bw-thresh-lbl">100점 기준 80개</span></div>
+    <div class="bar-wrap"><div class="bar-fill" style="width:66%"></div><div class="bar-line" style="left:calc(66% + 20px)"></div></div>
+    <div class="bar-legend"><b>■</b> 실제 단어수 &nbsp;|&nbsp; 100점 기준선</div>
+    <div class="orig-lbl">원문 (한국어 단어 카운트)</div>
+    <div class="orig-box">나는 책에서 나오는 아파트의 이름이 쉬쉬 아파트라 재미있었다. 왜냐하면 아파트의 이름이 쉬쉬 아파트기 때문이다. 그리고 또 아파트의 이름이 뿌뿌 아파트라 재미있었다. 왜냐하면 아파트의 이름이 뿌뿌 아파트이기 때문이다. 그리고 고양이가 장난감 나팔을 불었는데, 피이이 피이이 라고 표현을 해서 재미있었다. 왜냐하면 원래 나팔은 뿌뿌 소리가 나야 돼는데 장난감 나팔이라 피이이 피이이 라고 표현을 한게 재미있었다.</div>
+    <p class="cnote">53단어로 저학년 (초1·2) 60점 구간에 해당합니다. (100점 기준 80개↑)</p>
+  </div>
+  <div class="pblock">
+    <div class="phead"><span class="ptag pt-so">SO</span><span class="ptitle">논리·구조력</span><span class="pscore ps-so">70점</span></div>
+    <div class="crit">저학년 (초1·2) &nbsp;<b>100점: 처음부터 끝까지 주제 일관 | 85점: 1~2문장 이탈 | 70점: 절반만 연결 | 40점: 내용 나열</b></div>
+    <div class="hi-legend"><div class="hl-item"><div class="hl-dot hl-g"></div>주제 기여</div><div class="hl-item"><div class="hl-dot hl-b"></div>자기 경험 연결</div></div>
+    <div class="orig-box">
+      <span class="hi-g">나는 책에서 나오는 아파트의 이름이 쉬쉬 아파트라 재미있었다</span> <span class="hi-g">왜냐하면 아파트의 이름이 쉬쉬 아파트기 때문이다</span> <span class="hi-g">그리고 또 아파트의 이름이 뿌뿌 아파트라 재미있었다</span> <span class="hi-g">왜냐하면 아파트의 이름이 뿌뿌 아파트이기 때문이다</span> <span class="hi-g">그리고 고양이가 장난감 나팔을 불었는데, 피이이 피이이 라고 표현을 해서 재미있었다</span> <span class="hi-g">왜냐하면 원래 나팔은 뿌뿌 소리가 나야 돼는데 장난감 나팔이라 피이이 피이이 라고 표현을 한게 재미있었다</span>
+    </div>
+    <div class="anno-list">
+      <div class="anno-row"><span class="anno-icon">✓</span><span class="anno-txt">나는 책에서 나오는 아파트의 이름이 쉬쉬 아파트라 재미있었다 ~ (전체 반복 구조)</span><span class="anno-tag tag-g">내용 서술</span></div>
+    </div>
+    <div class="concl cl-so">SO 채점 결론 &nbsp;—&nbsp; 절반만 연결 (절반만 연결)</div>
+    <div class="concl-desc">"왜냐하면 ~이기 때문이다" 패턴이 반복되어 문장들이 하나의 주제로 모이지 않습니다. 절반 이상은 연결되나 흐름이 느슨해 70점입니다.</div>
+  </div>
+  <div class="pblock">
+    <div class="phead"><span class="ptag pt-ci">CI</span><span class="ptitle">비판·사고력</span><span class="pscore ps-ci">55점</span></div>
+    <div class="crit">저학년 (초1·2) &nbsp;<b>100점: 의견+이유1개 | 85점: 의견+구체장면+자기경험 | 70점: 의견+구체장면 | 55점: 의견만 | 35점: 줄거리만</b></div>
+    <div class="hi-legend"><div class="hl-item"><div class="hl-dot hl-g"></div>줄거리·사실 서술</div><div class="hl-item"><div class="hl-dot hl-b"></div>의견·경험</div></div>
+    <div class="orig-box">
+      <span class="hi-g">나는 책에서 나오는 아파트의 이름이 쉬쉬 아파트라 재미있었다</span> <span class="hi-g">왜냐하면 아파트의 이름이 쉬쉬 아파트기 때문이다</span> <span class="hi-g">그리고 또 아파트의 이름이 뿌뿌 아파트라 재미있었다</span> <span class="hi-g">왜냐하면 아파트의 이름이 뿌뿌 아파트이기 때문이다</span> <span class="hi-g">그리고 고양이가 장난감 나팔을 불었는데, 피이이 피이이 라고 표현을 해서 재미있었다</span> <span class="hi-g">왜냐하면 원래 나팔은 뿌뿌 소리가 나야 돼는데 장난감 나팔이라 피이이 피이이 라고 표현을 한게 재미있었다</span>
+    </div>
+    <div class="anno-list">
+      <div class="anno-row"><span class="anno-icon">✓</span><span class="anno-txt">전체 — 줄거리 나열 위주, 의견 표현 없음</span><span class="anno-tag tag-g">줄거리·사실 서술</span></div>
+    </div>
+    <div class="concl cl-ci">CI 채점 결론 &nbsp;—&nbsp; 의견만 (55점)</div>
+    <div class="concl-desc">의견은 표현했으나 그것을 뒷받침하는 구체적인 장면이나 이유, 자기 경험 연결이 없습니다. 55점에 해당합니다.</div>
+  </div>
+  <div class="pblock">
+    <div class="phead"><span class="ptag pt-hs">HS</span><span class="ptitle">독서 습관</span><span class="pscore ps-hs">58점</span></div>
+    <div class="crit">HS 기준 (전 학년 동일) &nbsp;<b>월별 독서 편차(CV) 자동 계산 · HS = max(40, min(100, 100 − CV × 60))</b></div>
+    <div class="hs-bars">
+      <div class="hs-row"><span class="hs-mo">25-12</span><div class="hs-track"><div class="hs-fill" style="width:39%"></div></div><span class="hs-cnt">12건</span></div>
+      <div class="hs-row"><span class="hs-mo">26-01</span><div class="hs-track"><div class="hs-fill" style="width:100%"></div></div><span class="hs-cnt">31건</span></div>
+      <div class="hs-row"><span class="hs-mo">26-02</span><div class="hs-track"><div class="hs-fill" style="width:48%"></div></div><span class="hs-cnt">15건</span></div>
+      <div class="hs-row"><span class="hs-mo">26-03</span><div class="hs-track"><div class="hs-fill" style="width:16%"></div></div><span class="hs-cnt">5건</span></div>
+    </div>
+    <p class="cnote">CV(변동계수) 높음 (편차 큼) → HS 58점</p>
+    <p class="snote">최다 31건 vs 최소 5건 — 월별 편차가 큰 편입니다.</p>
+  </div>
+  <div class="pblock">
+    <div class="phead"><span class="ptag pt-gs">GS</span><span class="ptitle">장르 균형</span><span class="pscore ps-gs">70점</span></div>
+    <div class="crit">GS 기준 (전 학년 동일) &nbsp;<b>100점: 몰입→확장 | 70점: 몰입만 | 60점: 분산형 | 40점: 무패턴</b></div>
+    <div style="font-size:12px;color:var(--sub);margin-bottom:5px;">장르 분포 (총 63건)</div>
+    <div class="gs-track"><div class="gs-seg gs-lit" style="width:97%">문학 61</div><div class="gs-seg gs-nat" style="width:3%">자연 2</div></div>
+    <div class="gs-legend">■ 문학 61건 (97%) &nbsp;■ 자연과학 2건 (3%)</div>
+    <p class="cnote" style="margin-top:10px;">슬라이딩 윈도우(최근 20% 구간) → "몰입만" 패턴 → 70점</p>
+    <p class="snote">다른 장르로의 확장이 아직 일어나지 않았습니다. 비문학이 늘면 100점으로 올라갑니다.</p>
+  </div>
+  <!-- 종합의견 -->
+  <div class="summary-block">
+    <div class="summary-cols">
+      <div class="summary-col">
+        <div class="summary-col-title">종합의견</div>
+        <div class="summary-col-body">책에서 흥미롭게 느낀 요소(아파트 이름, 소리 표현)를 찾아내고 그것이 왜 재미있는지 나름의 이유를 설명하려는 시도가 보입니다. "왜냐하면 ~이기 때문이다" 구조를 반복 사용하는 것은 초기 단계의 논리적 표현 시도로 볼 수 있어요.</div>
+      </div>
+      <div class="summary-col">
+        <div class="summary-col-title">앞으로 이렇게 해보세요</div>
+        <div class="summary-col-body">같은 이유를 반복하지 않고, 재미있었던 이유를 다르게 표현해보세요. 예를 들어 "원래 나팔은 뿌뿌 소리가 나야 하는데 장난감이라서 다르게 들려서 웃겼다"처럼 자신만의 말로 바꿔보면 훨씬 풍부한 글이 됩니다. 또 책을 읽고 어떤 생각이나 감정이 들었는지도 한 줄 추가해보세요.</div>
+      </div>
+    </div>
+  </div>
+</div><!-- /곽로이 -->
+
+
+
+
+<!-- ────────────────────────────────────────
+     4. 오규림 초4 중기
+──────────────────────────────────────── -->
+<div class="card">
+  <div class="card-head">
+    <div><div class="sname">오규림 <span style="font-size:14px;font-weight:400;color:var(--sub)">초4 · 중기 &nbsp;📚 별마트 햄스터 탈출기 (도서출판 봄볕)</span></div></div>
+    <div style="display:flex;align-items:center;gap:12px;"><span class="grade-tag g-mid">중학년 (초3·4)</span><span class="total-score">73.3점</span></div>
+  </div>
+  <div class="score-row">
+    <div class="chip c-bw"><span class="chip-lbl">BW ×0.25</span><span class="chip-val">80</span></div>
+    <div class="chip c-so"><span class="chip-lbl">SO ×0.25</span><span class="chip-val">85</span></div>
+    <div class="chip c-ci"><span class="chip-lbl">CI ×0.30</span><span class="chip-val">100</span></div>
+    <div class="chip c-hs"><span class="chip-lbl">HS ×0.10</span><span class="chip-val">61</span></div>
+    <div class="chip c-gs"><span class="chip-lbl">GS ×0.10</span><span class="chip-val">70</span></div>
+  </div>
+  <div class="pblock">
+    <div class="phead"><span class="ptag pt-bw">BW</span><span class="ptitle">어휘·서술력</span><span class="pscore ps-bw">80점</span></div>
+    <div class="crit">중학년 (초3·4) &nbsp;<b>100점: 100개↑ | 80점: 70~99개 | 60점: 45~69개 | 40점: 44개↓</b></div>
+    <div class="bw-top"><span class="bw-num">75단어</span><span class="bw-score-lbl">80점</span><span class="bw-thresh-lbl">100점 기준 100개</span></div>
+    <div class="bar-wrap"><div class="bar-fill" style="width:75%"></div><div class="bar-line" style="left:calc(75% + 25px)"></div></div>
+    <div class="bar-legend"><b>■</b> 실제 단어수 &nbsp;|&nbsp; 100점 기준선</div>
+    <div class="orig-lbl">원문 (한국어 단어 카운트)</div>
+    <div class="orig-box">내가 만약에 단비의 엄마가 되었다면 '휴 얼마나 키우고 싶었으면 햄스터를 훔칠까?' 라고 생각하고 '단비에게 너무 어려서부터 안된다고만 말했나? 아니야 단비는 천식이있어서 몸에 안 좋을거야. 아닌가? 햄스터는 괜찮을까? 휴~ 어떡하지!'라고 한번더 생각하다가 학교 끝나고 온 단비를 불러서 이렇게 말할거같다. '' 단비야 너 진짜로 햄스터 키우고 싶어?'' 하면 단비는 무조건 ''응!'' 이라고 말하거니까 그떈 이렇게 말하면 된다. '' 그럼 키우게 해줄게 대신 너가 키우기 전에 매일매일 꾸준히 수학 문제집을 5장씩 풀어. 오답풀이도.'' 라고하면 단비는 습관도 들고 목표도 이루겠지!</div>
+    <p class="cnote">75단어로 중학년 (초3·4) 80점 구간에 해당합니다. (100점 기준 100개↑)</p>
+  </div>
+  <div class="pblock">
+    <div class="phead"><span class="ptag pt-so">SO</span><span class="ptitle">논리·구조력</span><span class="pscore ps-so">85점</span></div>
+    <div class="crit">중학년 (초3·4) &nbsp;<b>100점: 주제+근거+결론 완벽 | 85점: 흐름 약간 느슨 | 70점: 1~2문장 이탈 | 55점: 절반 분산 | 40점: 내용 나열</b></div>
+    <div class="hi-legend"><div class="hl-item"><div class="hl-dot hl-g"></div>주제 기여</div><div class="hl-item"><div class="hl-dot hl-b"></div>자기 경험 연결</div></div>
+    <div class="orig-box">
+      <span class="hi-b">내가 만약에 단비의 엄마가 되었다면 '휴 얼마나 키우고 싶었으면 햄스터를 훔칠까?' 라고 생각하고 '단비에게 너무 어려서부터 안된다고만 말했나? 아니야 단비는 천식이있어서 몸에 안 좋을거야. 아닌가? 햄스터는 괜찮을까? 휴~ 어떡하지!'라고 한번더 생각하다가 학교 끝나고 온 단비를 불러서 이렇게 말할거같다.</span> <span class="hi-g">'' 단비야 너 진짜로 햄스터 키우고 싶어?'' 하면 단비는 무조건 ''응!'' 이라고 말하거니까 그떈 이렇게 말하면 된다.</span> <span class="hi-g">'' 그럼 키우게 해줄게 대신 너가 키우기 전에 매일매일 꾸준히 수학 문제집을 5장씩 풀어. 오답풀이도.'' 라고하면 단비는 습관도 들고 목표도 이루겠지!</span>
+    </div>
+    <div class="anno-list">
+      <div class="anno-row"><span class="anno-icon">★</span><span class="anno-txt">내가 만약에 단비의 엄마가 되었다면...</span><span class="anno-tag tag-b">자기 경험 연결</span></div>
+      <div class="anno-row"><span class="anno-icon">✓</span><span class="anno-txt">'' 단비야 너 진짜로 햄스터 키우고 싶어?'' ~ 그떈 이렇게 말하면 된다</span><span class="anno-tag tag-g">내용 서술</span></div>
+      <div class="anno-row"><span class="anno-icon">✓</span><span class="anno-txt">'' 그럼 키우게 해줄게 대신 수학 문제집을 5장씩 풀어. 오답풀이도.''</span><span class="anno-tag tag-g">내용 서술</span></div>
+    </div>
+    <div class="concl cl-so">SO 채점 결론 &nbsp;—&nbsp; 흐름 약간 느슨 (흐름 약간 느슨)</div>
+    <div class="concl-desc">자기 경험에서 시작해 책 내용으로 이어지는 구성이지만 도입부가 다소 길어 흐름이 약간 느슨합니다. 85점에 해당합니다.</div>
+  </div>
+  <div class="pblock">
+    <div class="phead"><span class="ptag pt-ci">CI</span><span class="ptitle">비판·사고력</span><span class="pscore ps-ci">100점</span></div>
+    <div class="crit">중학년 (초3·4) &nbsp;<b>100점: 의견+근거+책장면 | 85점: 의견+구체장면+자기경험 | 70점: 의견+구체장면 | 55점: 의견만 | 35점: 줄거리만</b></div>
+    <div class="hi-legend"><div class="hl-item"><div class="hl-dot hl-g"></div>줄거리·사실 서술</div><div class="hl-item"><div class="hl-dot hl-b"></div>의견·경험·사회맥락</div></div>
+    <div class="orig-box">
+      <span class="hi-b">내가 만약에 단비의 엄마가 되었다면 '휴 얼마나 키우고 싶었으면 햄스터를 훔칠까?' 라고 생각하고 '단비에게 너무 어려서부터 안된다고만 말했나? 아니야 단비는 천식이있어서 몸에 안 좋을거야. 아닌가? 햄스터는 괜찮을까? 휴~ 어떡하지!'라고 한번더 생각하다가 학교 끝나고 온 단비를 불러서 이렇게 말할거같다.</span> <span class="hi-g">'' 단비야 너 진짜로 햄스터 키우고 싶어?'' 하면 단비는 무조건 ''응!'' 이라고 말하거니까 그떈 이렇게 말하면 된다.</span> <span class="hi-g">'' 그럼 키우게 해줄게 대신 너가 키우기 전에 매일매일 꾸준히 수학 문제집을 5장씩 풀어. 오답풀이도.'' 라고하면 단비는 습관도 들고 목표도 이루겠지!</span>
+    </div>
+    <div class="anno-list">
+      <div class="anno-row"><span class="anno-icon">★</span><span class="anno-txt">내가 만약에 단비의 엄마가 되었다면...</span><span class="anno-tag tag-b">의견·경험·사회맥락</span></div>
+      <div class="anno-row"><span class="anno-icon">✓</span><span class="anno-txt">'' 단비야 너 진짜로 햄스터 키우고 싶어?'' ~ 수학 문제집 5장씩</span><span class="anno-tag tag-g">줄거리·사실 서술</span></div>
+    </div>
+    <div class="concl cl-ci">CI 채점 결론 &nbsp;—&nbsp; 의견+근거+책장면 (100점)</div>
+    <div class="concl-desc">의견, 구체적 근거, 책 속 장면 세 요소를 모두 갖춘 서술입니다. 100점에 해당합니다.</div>
+  </div>
+  <div class="pblock">
+    <div class="phead"><span class="ptag pt-hs">HS</span><span class="ptitle">독서 습관</span><span class="pscore ps-hs">61점</span></div>
+    <div class="crit">HS 기준 (전 학년 동일) &nbsp;<b>월별 독서 편차(CV) 자동 계산 · HS = max(40, min(100, 100 − CV × 60))</b></div>
+    <div class="hs-bars">
+      <div class="hs-row"><span class="hs-mo">25-12</span><div class="hs-track"><div class="hs-fill" style="width:13%"></div></div><span class="hs-cnt">4건</span></div>
+      <div class="hs-row"><span class="hs-mo">26-01</span><div class="hs-track"><div class="hs-fill" style="width:97%"></div></div><span class="hs-cnt">30건</span></div>
+      <div class="hs-row"><span class="hs-mo">26-02</span><div class="hs-track"><div class="hs-fill" style="width:87%"></div></div><span class="hs-cnt">27건</span></div>
+      <div class="hs-row"><span class="hs-mo">26-03</span><div class="hs-track"><div class="hs-fill" style="width:100%"></div></div><span class="hs-cnt">31건</span></div>
+      <div class="hs-row"><span class="hs-mo">26-04</span><div class="hs-track"><div class="hs-fill" style="width:26%"></div></div><span class="hs-cnt">8건</span></div>
+    </div>
+    <p class="cnote">CV(변동계수) 높음 (편차 큼) → HS 61점</p>
+    <p class="snote">최다 31건 vs 최소 4건 — 월별 편차가 큰 편입니다.</p>
+  </div>
+  <div class="pblock">
+    <div class="phead"><span class="ptag pt-gs">GS</span><span class="ptitle">장르 균형</span><span class="pscore ps-gs">70점</span></div>
+    <div class="crit">GS 기준 (전 학년 동일) &nbsp;<b>100점: 몰입→확장 | 70점: 몰입만 | 60점: 분산형 | 40점: 무패턴</b></div>
+    <div style="font-size:12px;color:var(--sub);margin-bottom:5px;">장르 분포 (총 100건)</div>
+    <div class="gs-track"><div class="gs-seg gs-lit" style="width:94%">문학 94</div><div class="gs-seg gs-nat" style="width:6%">자연 6</div></div>
+    <div class="gs-legend">■ 문학 94건 (94%) &nbsp;■ 자연과학 6건 (6%)</div>
+    <p class="cnote" style="margin-top:10px;">슬라이딩 윈도우(최근 20% 구간) → "몰입만" 패턴 → 70점</p>
+    <p class="snote">다른 장르로의 확장이 아직 일어나지 않았습니다. 비문학이 늘면 100점으로 올라갑니다.</p>
+  </div>
+  <!-- 종합의견 -->
+  <div class="summary-block">
+    <div class="summary-cols">
+      <div class="summary-col">
+        <div class="summary-col-title">종합의견</div>
+        <div class="summary-col-body">등장인물의 상황에 깊이 몰입하여 자신이 엄마라면 어떻게 했을지 구체적인 대화까지 상상해 쓴 점이 매우 인상적입니다. 수학 문제집 조건을 협상 도구로 떠올린 발상은 아이만이 쓸 수 있는 생동감 있는 표현으로, CI 100점에 완벽히 부합합니다.</div>
+      </div>
+      <div class="summary-col">
+        <div class="summary-col-title">앞으로 이렇게 해보세요</div>
+        <div class="summary-col-body">이렇게 상상력을 발휘하는 글쓰기 방식은 정말 훌륭해요. 앞으로는 단비가 실제로 책 속에서 어떤 행동을 했는지 줄거리를 한두 문장 먼저 소개한 뒤 자신의 생각을 펼쳐보세요. 그러면 SO 흐름이 더 탄탄해져서 100점에 도전할 수 있어요.</div>
+      </div>
+    </div>
+  </div>
+</div><!-- /오규림 -->
+
+
+<!-- ────────────────────────────────────────
+     5. 구진모 초3 중기
+──────────────────────────────────────── -->
+<div class="card">
+  <div class="card-head">
+    <div><div class="sname">구진모 <span style="font-size:14px;font-weight:400;color:var(--sub)">초3 · 중기 &nbsp;📚 모두의 식물원 (재능교육)</span></div></div>
+    <div style="display:flex;align-items:center;gap:12px;"><span class="grade-tag g-mid">중학년 (초3·4)</span><span class="total-score">58.9점</span></div>
+  </div>
+  <div class="score-row">
+    <div class="chip c-bw"><span class="chip-lbl">BW ×0.25</span><span class="chip-val">60</span></div>
+    <div class="chip c-so"><span class="chip-lbl">SO ×0.25</span><span class="chip-val">55</span></div>
+    <div class="chip c-ci"><span class="chip-lbl">CI ×0.30</span><span class="chip-val">55</span></div>
+    <div class="chip c-hs"><span class="chip-lbl">HS ×0.10</span><span class="chip-val">66</span></div>
+    <div class="chip c-gs"><span class="chip-lbl">GS ×0.10</span><span class="chip-val">70</span></div>
+  </div>
+  <div class="pblock">
+    <div class="phead"><span class="ptag pt-bw">BW</span><span class="ptitle">어휘·서술력</span><span class="pscore ps-bw">60점</span></div>
+    <div class="crit">중학년 (초3·4) &nbsp;<b>100점: 100개↑ | 80점: 70~99개 | 60점: 45~69개 | 40점: 44개↓</b></div>
+    <div class="bw-top"><span class="bw-num">62단어</span><span class="bw-score-lbl">60점</span><span class="bw-thresh-lbl">100점 기준 100개</span></div>
+    <div class="bar-wrap"><div class="bar-fill" style="width:62%"></div><div class="bar-line" style="left:calc(62% + 38px)"></div></div>
+    <div class="bar-legend"><b>■</b> 실제 단어수 &nbsp;|&nbsp; 100점 기준선</div>
+    <div class="orig-lbl">원문 (한국어 단어 카운트)</div>
+    <div class="orig-box">이 책은 식물원에 대한 책이다. 여우와 토끼가 "나비야~어딨니?"라는 말만 반복해서 별로 재미가 없었다. 그리고 이것만 해도 재미없는데 글씨까지 적어서 더 재미없었다. 글씨가 없는건 그대로지만 마지막에는 "나비야 조심해!"가 나와서 그때는 살짝 나비가 파리지옥한테 먹힐지 안먹힐지 궁금해졌다. 마지막장에 다양한 식물들에 이름이 써있어서 식물들을 잘 알 수 있었다. 그리고 원래는 식물에 관심이 없었는데 이 책을 읽은 덕분에 식물에 대해 관심이 조금 생겼다.</div>
+    <p class="cnote">62단어로 중학년 (초3·4) 60점 구간에 해당합니다. (100점 기준 100개↑)</p>
+  </div>
+  <div class="pblock">
+    <div class="phead"><span class="ptag pt-so">SO</span><span class="ptitle">논리·구조력</span><span class="pscore ps-so">55점</span></div>
+    <div class="crit">중학년 (초3·4) &nbsp;<b>100점: 주제+근거+결론 완벽 | 85점: 흐름 약간 느슨 | 70점: 1~2문장 이탈 | 55점: 절반 분산 | 40점: 내용 나열</b></div>
+    <div class="hi-legend"><div class="hl-item"><div class="hl-dot hl-g"></div>주제 기여</div><div class="hl-item"><div class="hl-dot hl-b"></div>자기 경험 연결</div></div>
+    <div class="orig-box">
+      <span class="hi-g">이 책은 식물원에 대한 책이다</span> <span class="hi-g">여우와 토끼가 "나비야~어딨니?"라는 말만 반복해서 별로 재미가 없었다</span> <span class="hi-g">그리고 이것만 해도 재미없는데 글씨까지 적어서 더 재미없었다</span> <span class="hi-g">글씨가 없는건 그대로지만 마지막에는 "나비야 조심해!"가 나와서 그때는 살짝 나비가 파리지옥한테 먹힐지 안먹힐지 궁금해졌다</span> <span class="hi-g">마지막장에 다양한 식물들에 이름이 써있어서 식물들을 잘 알 수 있었다</span> <span class="hi-g">그리고 원래는 식물에 관심이 없었는데 이 책을 읽은 덕분에 식물에 대해 관심이 조금 생겼다</span>
+    </div>
+    <div class="anno-list">
+      <div class="anno-row"><span class="anno-icon">✓</span><span class="anno-txt">이 책은 식물원에 대한 책이다 ~ 마지막장에 식물들을 잘 알 수 있었다</span><span class="anno-tag tag-g">내용 서술</span></div>
+      <div class="anno-row"><span class="anno-icon">✓</span><span class="anno-txt">원래는 식물에 관심이 없었는데 이 책을 읽은 덕분에 관심이 조금 생겼다</span><span class="anno-tag tag-g">내용 서술</span></div>
+    </div>
+    <div class="concl cl-so">SO 채점 결론 &nbsp;—&nbsp; 절반 분산 (절반 분산)</div>
+    <div class="concl-desc">각 문장이 앞 문장과 논리적으로 연결되지 않아 전체 흐름이 하나의 주제로 모이지 않습니다. 55점에 해당합니다.</div>
+  </div>
+  <div class="pblock">
+    <div class="phead"><span class="ptag pt-ci">CI</span><span class="ptitle">비판·사고력</span><span class="pscore ps-ci">55점</span></div>
+    <div class="crit">중학년 (초3·4) &nbsp;<b>100점: 의견+근거+책장면 | 85점: 의견+구체장면+자기경험 | 70점: 의견+구체장면 | 55점: 의견만 | 35점: 줄거리만</b></div>
+    <div class="hi-legend"><div class="hl-item"><div class="hl-dot hl-g"></div>줄거리·사실 서술</div><div class="hl-item"><div class="hl-dot hl-b"></div>의견·경험</div></div>
+    <div class="orig-box">
+      <span class="hi-g">이 책은 식물원에 대한 책이다</span> <span class="hi-g">여우와 토끼가 "나비야~어딨니?"라는 말만 반복해서 별로 재미가 없었다</span> <span class="hi-g">그리고 이것만 해도 재미없는데 글씨까지 적어서 더 재미없었다</span> <span class="hi-g">글씨가 없는건 그대로지만 마지막에는 "나비야 조심해!"가 나와서 그때는 살짝 나비가 파리지옥한테 먹힐지 안먹힐지 궁금해졌다</span> <span class="hi-g">마지막장에 다양한 식물들에 이름이 써있어서 식물들을 잘 알 수 있었다</span> <span class="hi-g">그리고 원래는 식물에 관심이 없었는데 이 책을 읽은 덕분에 식물에 대해 관심이 조금 생겼다</span>
+    </div>
+    <div class="anno-list">
+      <div class="anno-row"><span class="anno-icon">✓</span><span class="anno-txt">전체 줄거리 나열 위주</span><span class="anno-tag tag-g">줄거리·사실 서술</span></div>
+    </div>
+    <div class="concl cl-ci">CI 채점 결론 &nbsp;—&nbsp; 의견만 (55점)</div>
+    <div class="concl-desc">의견은 표현했으나 그것을 뒷받침하는 구체적인 장면이나 이유, 자기 경험 연결이 없습니다. 55점에 해당합니다.</div>
+  </div>
+  <div class="pblock">
+    <div class="phead"><span class="ptag pt-hs">HS</span><span class="ptitle">독서 습관</span><span class="pscore ps-hs">66점</span></div>
+    <div class="crit">HS 기준 (전 학년 동일) &nbsp;<b>월별 독서 편차(CV) 자동 계산 · HS = max(40, min(100, 100 − CV × 60))</b></div>
+    <div class="hs-bars">
+      <div class="hs-row"><span class="hs-mo">25-11</span><div class="hs-track"><div class="hs-fill" style="width:41%"></div></div><span class="hs-cnt">12건</span></div>
+      <div class="hs-row"><span class="hs-mo">25-12</span><div class="hs-track"><div class="hs-fill" style="width:100%"></div></div><span class="hs-cnt">29건</span></div>
+      <div class="hs-row"><span class="hs-mo">26-01</span><div class="hs-track"><div class="hs-fill" style="width:86%"></div></div><span class="hs-cnt">25건</span></div>
+      <div class="hs-row"><span class="hs-mo">26-02</span><div class="hs-track"><div class="hs-fill" style="width:62%"></div></div><span class="hs-cnt">18건</span></div>
+      <div class="hs-row"><span class="hs-mo">26-03</span><div class="hs-track"><div class="hs-fill" style="width:55%"></div></div><span class="hs-cnt">16건</span></div>
+      <div class="hs-row"><span class="hs-mo">26-04</span><div class="hs-track"><div class="hs-fill" style="width:7%"></div></div><span class="hs-cnt">2건</span></div>
+    </div>
+    <p class="cnote">CV(변동계수) 보통 → HS 66점</p>
+    <p class="snote">최다 29건 vs 최소 2건 — 월별 편차가 큰 편입니다.</p>
+  </div>
+  <div class="pblock">
+    <div class="phead"><span class="ptag pt-gs">GS</span><span class="ptitle">장르 균형</span><span class="pscore ps-gs">70점</span></div>
+    <div class="crit">GS 기준 (전 학년 동일) &nbsp;<b>100점: 몰입→확장 | 70점: 몰입만 | 60점: 분산형 | 40점: 무패턴</b></div>
+    <div style="font-size:12px;color:var(--sub);margin-bottom:5px;">장르 분포 (총 102건)</div>
+    <div class="gs-track"><div class="gs-seg gs-lit" style="width:93%">문학 95</div><div class="gs-seg gs-nat" style="width:7%">자연 7</div></div>
+    <div class="gs-legend">■ 문학 95건 (93%) &nbsp;■ 자연과학 7건 (7%)</div>
+    <p class="cnote" style="margin-top:10px;">슬라이딩 윈도우(최근 20% 구간) → "몰입만" 패턴 → 70점</p>
+    <p class="snote">다른 장르로의 확장이 아직 일어나지 않았습니다. 비문학이 늘면 100점으로 올라갑니다.</p>
+  </div>
+  <!-- 종합의견 -->
+  <div class="summary-block">
+    <div class="summary-cols">
+      <div class="summary-col">
+        <div class="summary-col-title">종합의견</div>
+        <div class="summary-col-body">책에 대한 솔직한 반응(재미없었다)을 숨기지 않고 표현한 점이 인상적입니다. 단순히 싫다고 끝내지 않고 어떤 부분이 왜 별로였는지 구체적으로 서술했으며, 마지막에 "관심이 조금 생겼다"는 반전으로 마무리하는 구성이 자연스럽습니다.</div>
+      </div>
+      <div class="summary-col">
+        <div class="summary-col-title">앞으로 이렇게 해보세요</div>
+        <div class="summary-col-body">책이 재미없었던 이유를 쓴 것처럼, 마지막에 식물에 관심이 생겼다면 어떤 식물이 가장 기억에 남았는지도 한 문장 추가해보세요. 자신의 경험이나 생활과 연결되는 문장이 한 개만 더 들어가면 CI가 70점에서 85점으로 올라갈 수 있어요.</div>
+      </div>
+    </div>
+  </div>
+</div><!-- /구진모 -->
+
+
+<!-- ────────────────────────────────────────
+     6. 김세인 초3 초기
+──────────────────────────────────────── -->
+<div class="card">
+  <div class="card-head">
+    <div><div class="sname">김세인 <span style="font-size:14px;font-weight:400;color:var(--sub)">초3 · 초기 &nbsp;📚 내 마음은 존버중입니다 (풀빛)</span></div></div>
+    <div style="display:flex;align-items:center;gap:12px;"><span class="grade-tag g-mid">중학년 (초3·4)</span><span class="total-score">72.6점</span></div>
+  </div>
+  <div class="score-row">
+    <div class="chip c-bw"><span class="chip-lbl">BW ×0.25</span><span class="chip-val">60</span></div>
+    <div class="chip c-so"><span class="chip-lbl">SO ×0.25</span><span class="chip-val">70</span></div>
+    <div class="chip c-ci"><span class="chip-lbl">CI ×0.30</span><span class="chip-val">70</span></div>
+    <div class="chip c-hs"><span class="chip-lbl">HS ×0.10</span><span class="chip-val">65</span></div>
+    <div class="chip c-gs"><span class="chip-lbl">GS ×0.10</span><span class="chip-val">70</span></div>
+  </div>
+  <div class="pblock">
+    <div class="phead"><span class="ptag pt-bw">BW</span><span class="ptitle">어휘·서술력</span><span class="pscore ps-bw">60점</span></div>
+    <div class="crit">중학년 (초3·4) &nbsp;<b>100점: 100개↑ | 80점: 70~99개 | 60점: 45~69개 | 40점: 44개↓</b></div>
+    <div class="bw-top"><span class="bw-num">61단어</span><span class="bw-score-lbl">60점</span><span class="bw-thresh-lbl">100점 기준 100개</span></div>
+    <div class="bar-wrap"><div class="bar-fill" style="width:61%"></div><div class="bar-line" style="left:calc(61% + 39px)"></div></div>
+    <div class="bar-legend"><b>■</b> 실제 단어수 &nbsp;|&nbsp; 100점 기준선</div>
+    <div class="orig-lbl">원문 (한국어 단어 카운트)</div>
+    <div class="orig-box">나는 오늘 내 마음은 존버중입니다를 읽었다. 이 책은 내 마음 상담에 관한 책이다. 이 책에서 가장 기억에 남는 말은 '만약에 나를 좋아한다고 고백받았을 때 기분이좋지 않아. 왜냐면 내가 날씬하고 예뻐서 좋다는데, 반대로 해석하면 내가 살을 안 빼고 화장하고 꾸미지 않으면 내가 싫다는 걸로 해석되잖아.'라는 말이 가장 기억에 남았다. 또 이 감정에 다른 이름을 붙여도 좋은 방법이라고 했다.(예:삐뽀삐.뽀)...</div>
+    <p class="cnote">61단어로 중학년 (초3·4) 60점 구간에 해당합니다. (100점 기준 100개↑)</p>
+  </div>
+  <div class="pblock">
+    <div class="phead"><span class="ptag pt-so">SO</span><span class="ptitle">논리·구조력</span><span class="pscore ps-so">70점</span></div>
+    <div class="crit">중학년 (초3·4) &nbsp;<b>100점: 주제+근거+결론 완벽 | 85점: 흐름 약간 느슨 | 70점: 1~2문장 이탈 | 55점: 절반 분산 | 40점: 내용 나열</b></div>
+    <div class="hi-legend"><div class="hl-item"><div class="hl-dot hl-g"></div>주제 기여</div><div class="hl-item"><div class="hl-dot hl-b"></div>자기 경험 연결</div></div>
+    <div class="orig-box">
+      <span class="hi-g">나는 오늘 내 마음은 존버중입니다를 읽었다</span> <span class="hi-g">이 책은 내 마음 상담에 관한 책이다</span> <span class="hi-g">이 책에서 가장 기억에 남는 말은 '만약에 나를 좋아한다고 고백받았을 때 기분이좋지 않아. 왜냐면 내가 날씬하고 예뻐서 좋다는데, 반대로 해석하면 내가 살을 안 빼고 화장하고 꾸미지 않으면 내가 싫다는 걸로 해석되잖아.'라는 말이 가장 기억에 남았다</span> <span class="hi-g">또 이 감정에 다른 이름을 붙여도 좋은 방법이라고 했다.(예:삐뽀삐.뽀)...</span>
+    </div>
+    <div class="anno-list">
+      <div class="anno-row"><span class="anno-icon">✓</span><span class="anno-txt">나는 오늘 내 마음은 존버중입니다를 읽었다 ~ 내 마음 상담에 관한 책이다</span><span class="anno-tag tag-g">내용 서술</span></div>
+      <div class="anno-row"><span class="anno-icon">✓</span><span class="anno-txt">가장 기억에 남는 말은 '만약에 나를 좋아한다고 고백받았을 때...'</span><span class="anno-tag tag-g">내용 서술</span></div>
+      <div class="anno-row"><span class="anno-icon">✓</span><span class="anno-txt">또 이 감정에 다른 이름을 붙여도 좋은 방법이라고 했다. (예:삐뽀삐.뽀)...</span><span class="anno-tag tag-g">내용 서술</span></div>
+    </div>
+    <div class="concl cl-so">SO 채점 결론 &nbsp;—&nbsp; 1~2문장 이탈 (1~2문장 이탈)</div>
+    <div class="concl-desc">책 내용을 안정적으로 서술하면서 자기 경험 연결이 1~2문장 범위 내에 있습니다. 주제 흐름이 전반적으로 유지되어 85점에 해당합니다.</div>
+  </div>
+  <div class="pblock">
+    <div class="phead"><span class="ptag pt-ci">CI</span><span class="ptitle">비판·사고력</span><span class="pscore ps-ci">70점</span></div>
+    <div class="crit">중학년 (초3·4) &nbsp;<b>100점: 의견+근거+책장면 | 85점: 의견+구체장면+자기경험 | 70점: 의견+구체장면 | 55점: 의견만 | 35점: 줄거리만</b></div>
+    <div class="hi-legend"><div class="hl-item"><div class="hl-dot hl-g"></div>줄거리·사실 서술</div><div class="hl-item"><div class="hl-dot hl-b"></div>의견·경험</div></div>
+    <div class="orig-box">
+      <span class="hi-g">나는 오늘 내 마음은 존버중입니다를 읽었다</span> <span class="hi-g">이 책은 내 마음 상담에 관한 책이다</span> <span class="hi-g">이 책에서 가장 기억에 남는 말은 '만약에 나를 좋아한다고 고백받았을 때 기분이좋지 않아. 왜냐면 내가 날씬하고 예뻐서 좋다는데, 반대로 해석하면 내가 살을 안 빼고 화장하고 꾸미지 않으면 내가 싫다는 걸로 해석되잖아.'라는 말이 가장 기억에 남았다</span> <span class="hi-g">또 이 감정에 다른 이름을 붙여도 좋은 방법이라고 했다.(예:삐뽀삐.뽀)...</span>
+    </div>
+    <div class="anno-list">
+      <div class="anno-row"><span class="anno-icon">✓</span><span class="anno-txt">전체 내용 서술 위주 — 구체 장면 인용 있음</span><span class="anno-tag tag-g">줄거리·사실 서술</span></div>
+    </div>
+    <div class="concl cl-ci">CI 채점 결론 &nbsp;—&nbsp; 의견+구체장면 (70점)</div>
+    <div class="concl-desc">기억에 남는 구체적인 장면을 제시하고 자신의 감정·의견을 연결했습니다. 그러나 이유 설명이나 사회맥락 연결이 없어 70점입니다.</div>
+  </div>
+  <div class="pblock">
+    <div class="phead"><span class="ptag pt-hs">HS</span><span class="ptitle">독서 습관</span><span class="pscore ps-hs">65점</span></div>
+    <div class="crit">HS 기준 (전 학년 동일) &nbsp;<b>월별 독서 편차(CV) 자동 계산 · HS = max(40, min(100, 100 − CV × 60))</b></div>
+    <div class="hs-bars">
+      <div class="hs-row"><span class="hs-mo">26-01</span><div class="hs-track"><div class="hs-fill" style="width:39%"></div></div><span class="hs-cnt">12건</span></div>
+      <div class="hs-row"><span class="hs-mo">26-02</span><div class="hs-track"><div class="hs-fill" style="width:90%"></div></div><span class="hs-cnt">28건</span></div>
+      <div class="hs-row"><span class="hs-mo">26-03</span><div class="hs-track"><div class="hs-fill" style="width:100%"></div></div><span class="hs-cnt">31건</span></div>
+      <div class="hs-row"><span class="hs-mo">26-04</span><div class="hs-track"><div class="hs-fill" style="width:26%"></div></div><span class="hs-cnt">8건</span></div>
+    </div>
+    <p class="cnote">CV(변동계수) 보통 → HS 65점</p>
+    <p class="snote">최다 31건 vs 최소 8건 — 월별 편차가 큰 편입니다.</p>
+  </div>
+  <div class="pblock">
+    <div class="phead"><span class="ptag pt-gs">GS</span><span class="ptitle">장르 균형</span><span class="pscore ps-gs">70점</span></div>
+    <div class="crit">GS 기준 (전 학년 동일) &nbsp;<b>100점: 몰입→확장 | 70점: 몰입만 | 60점: 분산형 | 40점: 무패턴</b></div>
+    <div style="font-size:12px;color:var(--sub);margin-bottom:5px;">장르 분포 (총 79건)</div>
+    <div class="gs-track"><div class="gs-seg gs-lit" style="width:87%">문학 69</div><div class="gs-seg gs-nat" style="width:8%">자연 6</div><div class="gs-seg gs-hum" style="width:5%">인문 4</div></div>
+    <div class="gs-legend">■ 문학 69건 (87%) &nbsp;■ 자연과학 6건 (8%) &nbsp;■ 인문사회 4건 (5%)</div>
+    <p class="cnote" style="margin-top:10px;">슬라이딩 윈도우(최근 20% 구간) → "몰입만" 패턴 → 70점</p>
+    <p class="snote">다른 장르로의 확장이 아직 일어나지 않았습니다. 비문학이 늘면 100점으로 올라갑니다.</p>
+  </div>
+  <!-- 종합의견 -->
+  <div class="summary-block">
+    <div class="summary-cols">
+      <div class="summary-col">
+        <div class="summary-col-title">종합의견</div>
+        <div class="summary-col-body">또래 문화에서 쓰이는 어휘("존버")를 자연스럽게 구사하고, 책 속 인상적인 구절을 정확하게 기억해 인용한 점이 돋보입니다. 외모 평가에 대한 역설적 해석을 이해하고 옮긴 것은 초3 수준을 넘어서는 읽기 깊이를 보여줍니다.</div>
+      </div>
+      <div class="summary-col">
+        <div class="summary-col-title">앞으로 이렇게 해보세요</div>
+        <div class="summary-col-body">책 속 내용을 잘 이해했으니 이제 "나는 이 말을 읽고 어떤 생각이 들었는지"를 한 문장 덧붙여보세요. 예를 들어 "나도 가끔 외모로 평가받는 것 같아서 불편했던 적이 있는데, 이 책을 읽고 나도 그런 말을 하지 않아야겠다고 느꼈다"처럼요. 그러면 CI가 85점 이상으로 올라갈 거예요.</div>
+      </div>
+    </div>
+  </div>
+</div><!-- /김세인 -->
+
+
+<!-- ────────────────────────────────────────
+     7. 곽로운 초5 초기
+──────────────────────────────────────── -->
+<div class="card">
+  <div class="card-head">
+    <div><div class="sname">곽로운 <span style="font-size:14px;font-weight:400;color:var(--sub)">초5 · 초기 &nbsp;📚 어린이를 위한 그랜드투어 2 동유럽 (아이스크림북스)</span></div></div>
+    <div style="display:flex;align-items:center;gap:12px;"><span class="grade-tag g-high">고학년 (초5·6)</span><span class="total-score">76.0점</span></div>
+  </div>
+  <div class="score-row">
+    <div class="chip c-bw"><span class="chip-lbl">BW ×0.25</span><span class="chip-val">60</span></div>
+    <div class="chip c-so"><span class="chip-lbl">SO ×0.25</span><span class="chip-val">70</span></div>
+    <div class="chip c-ci"><span class="chip-lbl">CI ×0.30</span><span class="chip-val">70</span></div>
+    <div class="chip c-hs"><span class="chip-lbl">HS ×0.10</span><span class="chip-val">62</span></div>
+    <div class="chip c-gs"><span class="chip-lbl">GS ×0.10</span><span class="chip-val">70</span></div>
+  </div>
+  <div class="pblock">
+    <div class="phead"><span class="ptag pt-bw">BW</span><span class="ptitle">어휘·서술력</span><span class="pscore ps-bw">60점</span></div>
+    <div class="crit">고학년 (초5·6) &nbsp;<b>100점: 100개↑ | 80점: 70~99개 | 60점: 45~69개 | 40점: 44개↓</b></div>
+    <div class="bw-top"><span class="bw-num">63단어</span><span class="bw-score-lbl">60점</span><span class="bw-thresh-lbl">100점 기준 100개</span></div>
+    <div class="bar-wrap"><div class="bar-fill" style="width:63%"></div><div class="bar-line" style="left:calc(63% + 37px)"></div></div>
+    <div class="bar-legend"><b>■</b> 실제 단어수 &nbsp;|&nbsp; 100점 기준선</div>
+    <div class="orig-lbl">원문 (한국어 단어 카운트)</div>
+    <div class="orig-box">나는 오늘 이책을 읽고나서 살짝 실망했다. 왜냐면 나라의 명소와 역사를 설명해 주는 책인데 내가 이미 벌거벗은 세계사로 다 봤었던 내용이었기 때문이다. 역사의 내용은 합스부르크 가문의 힘과 유전병하고 베토벤이 오스트리아에서 빈이라는 마을에 있었을 때 시민들의 사랑을 많이 받았던 것과 귓병을 앓아서 56세의 나이로 죽었다는 것이었다. 이미 다 봤었어서 실망은 했지만 책은 재미있었다. 왜냐면 그림체가 입이 많이 벌어지고 강아지가 영역표시해서 차원의 문으로 이동하는 설정이기 때문이다.</div>
+    <p class="cnote">63단어로 고학년 (초5·6) 60점 구간에 해당합니다. (100점 기준 100개↑)</p>
+  </div>
+  <div class="pblock">
+    <div class="phead"><span class="ptag pt-so">SO</span><span class="ptitle">논리·구조력</span><span class="pscore ps-so">70점</span></div>
+    <div class="crit">고학년 (초5·6) &nbsp;<b>100점: 주제+근거+결론 완벽 | 85점: 흐름 약간 느슨 | 70점: 1~2문장 이탈 | 55점: 절반 분산 | 40점: 내용 나열</b></div>
+    <div class="hi-legend"><div class="hl-item"><div class="hl-dot hl-g"></div>주제 기여</div><div class="hl-item"><div class="hl-dot hl-b"></div>자기 경험 연결</div></div>
+    <div class="orig-box">
+      <span class="hi-g">나는 오늘 이책을 읽고나서 살짝 실망했다</span> <span class="hi-g">왜냐면 나라의 명소와 역사를 설명해 주는 책인데 내가 이미 벌거벗은 세계사로 다 봤었던 내용이었기 때문이다</span> <span class="hi-g">역사의 내용은 합스부르크 가문의 힘과 유전병하고 베토벤이 오스트리아에서 빈이라는 마을에 있었을 때 시민들의 사랑을 많이 받았던 것과 귓병을 앓아서 56세의 나이로 죽었다는 것이었다</span> <span class="hi-g">이미 다 봤었어서 실망은 했지만 책은 재미있었다</span> <span class="hi-g">왜냐면 그림체가 입이 많이 벌어지고 강아지가 영역표시해서 차원의 문으로 이동하는 설정이기 때문이다</span>
+    </div>
+    <div class="anno-list">
+      <div class="anno-row"><span class="anno-icon">✓</span><span class="anno-txt">나는 오늘 이책을 읽고나서 살짝 실망했다 ~ 벌거벗은 세계사로 다 봤었던 내용</span><span class="anno-tag tag-g">내용 서술</span></div>
+      <div class="anno-row"><span class="anno-icon">✓</span><span class="anno-txt">이미 다 봤었어서 실망은 했지만 책은 재미있었다</span><span class="anno-tag tag-g">내용 서술</span></div>
+      <div class="anno-row"><span class="anno-icon">✓</span><span class="anno-txt">그림체가 입이 많이 벌어지고 강아지가 영역표시해서 차원의 문으로 이동하는 설정</span><span class="anno-tag tag-g">내용 서술</span></div>
+    </div>
+    <div class="concl cl-so">SO 채점 결론 &nbsp;—&nbsp; 1~2문장 이탈 (1~2문장 이탈)</div>
+    <div class="concl-desc">책 내용을 안정적으로 서술하면서 자기 경험 연결이 1~2문장 범위 내에 있습니다. 주제 흐름이 전반적으로 유지되어 85점에 해당합니다.</div>
+  </div>
+  <div class="pblock">
+    <div class="phead"><span class="ptag pt-ci">CI</span><span class="ptitle">비판·사고력</span><span class="pscore ps-ci">70점</span></div>
+    <div class="crit">고학년 (초5·6) &nbsp;<b>100점: 주장+근거+사회맥락 | 85점: 의견+구체장면+자기경험 | 70점: 의견+구체장면 | 55점: 의견만 | 35점: 줄거리만</b></div>
+    <div class="hi-legend"><div class="hl-item"><div class="hl-dot hl-g"></div>줄거리·사실 서술</div><div class="hl-item"><div class="hl-dot hl-b"></div>의견·경험</div></div>
+    <div class="orig-box">
+      <span class="hi-g">나는 오늘 이책을 읽고나서 살짝 실망했다</span> <span class="hi-g">왜냐면 나라의 명소와 역사를 설명해 주는 책인데 내가 이미 벌거벗은 세계사로 다 봤었던 내용이었기 때문이다</span> <span class="hi-g">역사의 내용은 합스부르크 가문의 힘과 유전병하고 베토벤이 오스트리아에서 빈이라는 마을에 있었을 때 시민들의 사랑을 많이 받았던 것과 귓병을 앓아서 56세의 나이로 죽었다는 것이었다</span> <span class="hi-g">이미 다 봤었어서 실망은 했지만 책은 재미있었다</span> <span class="hi-g">왜냐면 그림체가 입이 많이 벌어지고 강아지가 영역표시해서 차원의 문으로 이동하는 설정이기 때문이다</span>
+    </div>
+    <div class="anno-list">
+      <div class="anno-row"><span class="anno-icon">✓</span><span class="anno-txt">나는 오늘 이책을 읽고나서 살짝 실망했다 ~ 벌거벗은 세계사로 다 봤었던 내용</span><span class="anno-tag tag-g">줄거리·사실 서술</span></div>
+      <div class="anno-row"><span class="anno-icon">✓</span><span class="anno-txt">이미 다 봤었어서 실망은 했지만 책은 재미있었다 ~ 차원의 문으로 이동하는 설정</span><span class="anno-tag tag-g">줄거리·사실 서술</span></div>
+    </div>
+    <div class="concl cl-ci">CI 채점 결론 &nbsp;—&nbsp; 의견+구체장면</div>
+    <div class="concl-desc">기억에 남는 구체적인 장면을 제시하고 자신의 감정·의견을 연결했습니다. 그러나 이유 설명이나 사회맥락 연결이 없어 70점입니다.</div>
+  </div>
+  <div class="pblock">
+    <div class="phead"><span class="ptag pt-hs">HS</span><span class="ptitle">독서 습관</span><span class="pscore ps-hs">62점</span></div>
+    <div class="crit">HS 기준 (전 학년 동일) &nbsp;<b>월별 독서 편차(CV) 자동 계산 · HS = max(40, min(100, 100 − CV × 60))</b></div>
+    <div class="hs-bars">
+      <div class="hs-row"><span class="hs-mo">25-12</span><div class="hs-track"><div class="hs-fill" style="width:38%"></div></div><span class="hs-cnt">11건</span></div>
+      <div class="hs-row"><span class="hs-mo">26-01</span><div class="hs-track"><div class="hs-fill" style="width:100%"></div></div><span class="hs-cnt">29건</span></div>
+      <div class="hs-row"><span class="hs-mo">26-02</span><div class="hs-track"><div class="hs-fill" style="width:55%"></div></div><span class="hs-cnt">16건</span></div>
+      <div class="hs-row"><span class="hs-mo">26-03</span><div class="hs-track"><div class="hs-fill" style="width:21%"></div></div><span class="hs-cnt">6건</span></div>
+    </div>
+    <p class="cnote">CV(변동계수) 높음 (편차 큼) → HS 62점</p>
+    <p class="snote">최다 29건 vs 최소 6건 — 월별 편차가 큰 편입니다.</p>
+  </div>
+  <div class="pblock">
+    <div class="phead"><span class="ptag pt-gs">GS</span><span class="ptitle">장르 균형</span><span class="pscore ps-gs">70점</span></div>
+    <div class="crit">GS 기준 (전 학년 동일) &nbsp;<b>100점: 몰입→확장 | 70점: 몰입만 | 60점: 분산형 | 40점: 무패턴</b></div>
+    <div style="font-size:12px;color:var(--sub);margin-bottom:5px;">장르 분포 (총 62건)</div>
+    <div class="gs-track"><div class="gs-seg gs-lit" style="width:84%">문학 52</div><div class="gs-seg gs-nat" style="width:10%">자연 6</div><div class="gs-seg gs-hum" style="width:6%">인문 4</div></div>
+    <div class="gs-legend">■ 문학 52건 (84%) &nbsp;■ 자연과학 6건 (10%) &nbsp;■ 인문사회 4건 (6%)</div>
+    <p class="cnote" style="margin-top:10px;">슬라이딩 윈도우(최근 20% 구간) → "몰입만" 패턴 → 70점</p>
+    <p class="snote">다른 장르로의 확장이 아직 일어나지 않았습니다. 비문학이 늘면 100점으로 올라갑니다.</p>
+  </div>
+  <!-- 종합의견 -->
+  <div class="summary-block">
+    <div class="summary-cols">
+      <div class="summary-col">
+        <div class="summary-col-title">종합의견</div>
+        <div class="summary-col-body">이미 알고 있는 내용이라 실망했다는 솔직한 감상과 함께, 그럼에도 그림체와 설정에서 재미를 찾아낸 균형 잡힌 시각이 인상적입니다. 다른 책(벌거벗은 세계사)과 비교하는 능동적 독서 습관은 고학년으로서 매우 바람직한 태도입니다.</div>
+      </div>
+      <div class="summary-col">
+        <div class="summary-col-title">앞으로 이렇게 해보세요</div>
+        <div class="summary-col-body">두 책을 비교한 것처럼, 이 책에서만 새롭게 알게 된 내용이 있다면 그것도 한 가지 소개해보세요. 또 "살짝 실망했다"는 감정이 끝까지 유지됐는지, 아니면 읽으면서 바뀌었는지 변화 과정을 쓰면 SO 흐름이 더 완성도 있게 이어집니다.</div>
+      </div>
+    </div>
+  </div>
+</div><!-- /곽로운 -->
+
+
+<!-- ────────────────────────────────────────
+     8. 이지현 초5 후기
+──────────────────────────────────────── -->
+<div class="card">
+  <div class="card-head">
+    <div><div class="sname">이지현 <span style="font-size:14px;font-weight:400;color:var(--sub)">초5 · 후기 &nbsp;📚 햇빛초 대나무 숲의 모든 글이 삭제되었습니다 (우리학교)</span></div></div>
+    <div style="display:flex;align-items:center;gap:12px;"><span class="grade-tag g-high">고학년 (초5·6)</span><span class="total-score">71.9점</span></div>
+  </div>
+  <div class="score-row">
+    <div class="chip c-bw"><span class="chip-lbl">BW ×0.25</span><span class="chip-val">80</span></div>
+    <div class="chip c-so"><span class="chip-lbl">SO ×0.25</span><span class="chip-val">85</span></div>
+    <div class="chip c-ci"><span class="chip-lbl">CI ×0.30</span><span class="chip-val">70</span></div>
+    <div class="chip c-hs"><span class="chip-lbl">HS ×0.10</span><span class="chip-val">62</span></div>
+    <div class="chip c-gs"><span class="chip-lbl">GS ×0.10</span><span class="chip-val">70</span></div>
+  </div>
+  <div class="pblock">
+    <div class="phead"><span class="ptag pt-bw">BW</span><span class="ptitle">어휘·서술력</span><span class="pscore ps-bw">80점</span></div>
+    <div class="crit">고학년 (초5·6) &nbsp;<b>100점: 100개↑ | 80점: 70~99개 | 60점: 45~69개 | 40점: 44개↓</b></div>
+    <div class="bw-top"><span class="bw-num">75단어</span><span class="bw-score-lbl">80점</span><span class="bw-thresh-lbl">100점 기준 100개</span></div>
+    <div class="bar-wrap"><div class="bar-fill" style="width:75%"></div><div class="bar-line" style="left:calc(75% + 25px)"></div></div>
+    <div class="bar-legend"><b>■</b> 실제 단어수 &nbsp;|&nbsp; 100점 기준선</div>
+    <div class="orig-lbl">원문 (한국어 단어 카운트)</div>
+    <div class="orig-box">이 책은 난타반 사고 이후, 햇빛초 대나무 숲이 사라진 이야기이다. 먼저 가장 기억에 남았던 장면은 혜라. 덫이다 왜냐하면 '햇빛초 댓스 굿즈 연쇄 테러 사건'으로 떠들썩 한데 거기에다가 '어둠의 햇빛초'라는 이름을 말하며 좋아하는게 이상한 것 같기도 했고, 그 뒷이야기가 기대되었기 때문이다. 그리고 '햇빛초 대나무 숲의 새 글이 올라왔습니다.' 가 이 책의 후속권일줄알았는데 이 책이 후속권이어서 놀라기도했었고, '햇빛초 대나무 숲의 새 글이 올라왔습니다.' 도 읽어보고깊었다. 그리고 이 책의 후속권도 새로 나왔으면 좋겠다고 생각을하기도 했다.</div>
+    <p class="cnote">75단어로 고학년 (초5·6) 80점 구간에 해당합니다. (100점 기준 100개↑)</p>
+  </div>
+  <div class="pblock">
+    <div class="phead"><span class="ptag pt-so">SO</span><span class="ptitle">논리·구조력</span><span class="pscore ps-so">85점</span></div>
+    <div class="crit">고학년 (초5·6) &nbsp;<b>100점: 주제+근거+결론 완벽 | 85점: 흐름 약간 느슨 | 70점: 1~2문장 이탈 | 55점: 절반 분산 | 40점: 내용 나열</b></div>
+    <div class="hi-legend"><div class="hl-item"><div class="hl-dot hl-g"></div>주제 기여</div><div class="hl-item"><div class="hl-dot hl-b"></div>자기 경험 연결</div></div>
+    <div class="orig-box">
+      <span class="hi-g">이 책은 난타반 사고 이후, 햇빛초 대나무 숲이 사라진 이야기이다</span> <span class="hi-g">먼저 가장 기억에 남았던 장면은 혜라. 덫이다 왜냐하면 '햇빛초 댓스 굿즈 연쇄 테러 사건'으로 떠들썩 한데 거기에다가 '어둠의 햇빛초'라는 이름을 말하며 좋아하는게 이상한 것 같기도 했고, 그 뒷이야기가 기대되었기 때문이다</span> <span class="hi-g">그리고 '햇빛초 대나무 숲의 새 글이 올라왔습니다.' 가 이 책의 후속권일줄알았는데 이 책이 후속권이어서 놀라기도했었고, '햇빛초 대나무 숲의 새 글이 올라왔습니다.' 도 읽어보고깊었다</span> <span class="hi-g">그리고 이 책의 후속권도 새로 나왔으면 좋겠다고 생각을하기도 했다</span>
+    </div>
+    <div class="anno-list">
+      <div class="anno-row"><span class="anno-icon">✓</span><span class="anno-txt">이 책은 난타반 사고 이후 ~ 뒷이야기가 기대되었기 때문이다</span><span class="anno-tag tag-g">내용 서술</span></div>
+      <div class="anno-row"><span class="anno-icon">✓</span><span class="anno-txt">후속권일줄알았는데 이 책이 후속권이어서 놀라기도했었고 ~ 읽어보고깊었다</span><span class="anno-tag tag-g">내용 서술</span></div>
+      <div class="anno-row"><span class="anno-icon">✓</span><span class="anno-txt">이 책의 후속권도 새로 나왔으면 좋겠다고 생각을하기도 했다</span><span class="anno-tag tag-g">내용 서술</span></div>
+    </div>
+    <div class="concl cl-so">SO 채점 결론 &nbsp;—&nbsp; 흐름 약간 느슨 (흐름 약간 느슨)</div>
+    <div class="concl-desc">자기 경험에서 시작해 책 내용으로 이어지는 구성이지만 도입부가 다소 길어 흐름이 약간 느슨합니다. 85점에 해당합니다.</div>
+  </div>
+  <div class="pblock">
+    <div class="phead"><span class="ptag pt-ci">CI</span><span class="ptitle">비판·사고력</span><span class="pscore ps-ci">70점</span></div>
+    <div class="crit">고학년 (초5·6) &nbsp;<b>100점: 주장+근거+사회맥락 | 85점: 의견+구체장면+자기경험 | 70점: 의견+구체장면 | 55점: 의견만 | 35점: 줄거리만</b></div>
+    <div class="hi-legend"><div class="hl-item"><div class="hl-dot hl-g"></div>줄거리·사실 서술</div><div class="hl-item"><div class="hl-dot hl-b"></div>의견·경험</div></div>
+    <div class="orig-box">
+      <span class="hi-g">이 책은 난타반 사고 이후, 햇빛초 대나무 숲이 사라진 이야기이다</span> <span class="hi-g">먼저 가장 기억에 남았던 장면은 혜라. 덫이다 왜냐하면 '햇빛초 댓스 굿즈 연쇄 테러 사건'으로 떠들썩 한데 거기에다가 '어둠의 햇빛초'라는 이름을 말하며 좋아하는게 이상한 것 같기도 했고, 그 뒷이야기가 기대되었기 때문이다</span> <span class="hi-g">그리고 '햇빛초 대나무 숲의 새 글이 올라왔습니다.' 가 이 책의 후속권일줄알았는데 이 책이 후속권이어서 놀라기도했었고, '햇빛초 대나무 숲의 새 글이 올라왔습니다.' 도 읽어보고깊었다</span> <span class="hi-b">그리고 이 책의 후속권도 새로 나왔으면 좋겠다고 생각을하기도 했다</span>
+    </div>
+    <div class="anno-list">
+      <div class="anno-row"><span class="anno-icon">✓</span><span class="anno-txt">이 책은 난타반 사고 이후 ~ 읽어보고깊었다</span><span class="anno-tag tag-g">줄거리·사실 서술</span></div>
+      <div class="anno-row"><span class="anno-icon">✓</span><span class="anno-txt">이 책의 후속권도 새로 나왔으면 좋겠다고 생각을하기도 했다</span><span class="anno-tag tag-b">의견 표현</span></div>
+    </div>
+    <div class="concl cl-ci">CI 채점 결론 &nbsp;—&nbsp; 의견+구체장면</div>
+    <div class="concl-desc">기억에 남는 구체적인 장면을 제시하고 자신의 감정·의견을 연결했습니다. 그러나 이유 설명이나 사회맥락 연결이 없어 70점입니다.</div>
+  </div>
+  <div class="pblock">
+    <div class="phead"><span class="ptag pt-hs">HS</span><span class="ptitle">독서 습관</span><span class="pscore ps-hs">62점</span></div>
+    <div class="crit">HS 기준 (전 학년 동일) &nbsp;<b>월별 독서 편차(CV) 자동 계산 · HS = max(40, min(100, 100 − CV × 60))</b></div>
+    <div class="hs-bars">
+      <div class="hs-row"><span class="hs-mo">25-12</span><div class="hs-track"><div class="hs-fill" style="width:32%"></div></div><span class="hs-cnt">10건</span></div>
+      <div class="hs-row"><span class="hs-mo">26-01</span><div class="hs-track"><div class="hs-fill" style="width:100%"></div></div><span class="hs-cnt">31건</span></div>
+      <div class="hs-row"><span class="hs-mo">26-02</span><div class="hs-track"><div class="hs-fill" style="width:84%"></div></div><span class="hs-cnt">26건</span></div>
+      <div class="hs-row"><span class="hs-mo">26-03</span><div class="hs-track"><div class="hs-fill" style="width:97%"></div></div><span class="hs-cnt">30건</span></div>
+      <div class="hs-row"><span class="hs-mo">26-04</span><div class="hs-track"><div class="hs-fill" style="width:10%"></div></div><span class="hs-cnt">3건</span></div>
+    </div>
+    <p class="cnote">CV(변동계수) 높음 (편차 큼) → HS 62점</p>
+    <p class="snote">최다 31건 vs 최소 3건 — 월별 편차가 큰 편입니다.</p>
+  </div>
+  <div class="pblock">
+    <div class="phead"><span class="ptag pt-gs">GS</span><span class="ptitle">장르 균형</span><span class="pscore ps-gs">70점</span></div>
+    <div class="crit">GS 기준 (전 학년 동일) &nbsp;<b>100점: 몰입→확장 | 70점: 몰입만 | 60점: 분산형 | 40점: 무패턴</b></div>
+    <div style="font-size:12px;color:var(--sub);margin-bottom:5px;">장르 분포 (총 100건)</div>
+    <div class="gs-track"><div class="gs-seg gs-lit" style="width:95%">문학 95</div><div class="gs-seg gs-nat" style="width:5%">자연 5</div></div>
+    <div class="gs-legend">■ 문학 95건 (95%) &nbsp;■ 자연과학 5건 (5%)</div>
+    <p class="cnote" style="margin-top:10px;">슬라이딩 윈도우(최근 20% 구간) → "몰입만" 패턴 → 70점</p>
+    <p class="snote">다른 장르로의 확장이 아직 일어나지 않았습니다. 비문학이 늘면 100점으로 올라갑니다.</p>
+  </div>
+  <!-- 종합의견 -->
+  <div class="summary-block">
+    <div class="summary-cols">
+      <div class="summary-col">
+        <div class="summary-col-title">종합의견</div>
+        <div class="summary-col-body">시리즈를 꾸준히 읽어온 독자로서 전작과의 관계를 파악하고 있는 점, 후속권을 기대하는 점 모두 적극적인 독서 참여를 보여줍니다. 오탈자("읽어보고깊었다")가 있지만 이것이 오히려 아이가 직접 쓴 생생한 글임을 증명합니다.</div>
+      </div>
+      <div class="summary-col">
+        <div class="summary-col-title">앞으로 이렇게 해보세요</div>
+        <div class="summary-col-body">가장 기억에 남은 장면("혜라. 덫")을 소개할 때 그 장면이 왜 기억에 남았는지 이유를 한 문장 더 써보세요. 또 후속권이 나왔으면 좋겠다는 바람과 함께 어떤 이야기가 이어지길 기대하는지 상상해 쓰면 CI가 85점으로 올라갈 수 있어요.</div>
+      </div>
+    </div>
+  </div>
+</div><!-- /이지현 -->
+
+
+<!-- ────────────────────────────────────────
+     9. 김수현 초5 후기
+──────────────────────────────────────── -->
+<div class="card">
+  <div class="card-head">
+    <div><div class="sname">김수현 <span style="font-size:14px;font-weight:400;color:var(--sub)">초5 · 후기 &nbsp;📚 단추 마녀와 쓰레기 괴물 (키다리)</span></div></div>
+    <div style="display:flex;align-items:center;gap:12px;"><span class="grade-tag g-high">고학년 (초5·6)</span><span class="total-score">61.0점</span></div>
+  </div>
+  <div class="score-row">
+    <div class="chip c-bw"><span class="chip-lbl">BW ×0.25</span><span class="chip-val">60</span></div>
+    <div class="chip c-so"><span class="chip-lbl">SO ×0.25</span><span class="chip-val">55</span></div>
+    <div class="chip c-ci"><span class="chip-lbl">CI ×0.30</span><span class="chip-val">55</span></div>
+    <div class="chip c-hs"><span class="chip-lbl">HS ×0.10</span><span class="chip-val">59</span></div>
+    <div class="chip c-gs"><span class="chip-lbl">GS ×0.10</span><span class="chip-val">70</span></div>
+  </div>
+  <div class="pblock">
+    <div class="phead"><span class="ptag pt-bw">BW</span><span class="ptitle">어휘·서술력</span><span class="pscore ps-bw">60점</span></div>
+    <div class="crit">고학년 (초5·6) &nbsp;<b>100점: 100개↑ | 80점: 70~99개 | 60점: 45~69개 | 40점: 44개↓</b></div>
+    <div class="bw-top"><span class="bw-num">54단어</span><span class="bw-score-lbl">60점</span><span class="bw-thresh-lbl">100점 기준 100개</span></div>
+    <div class="bar-wrap"><div class="bar-fill" style="width:54%"></div><div class="bar-line" style="left:calc(54% + 46px)"></div></div>
+    <div class="bar-legend"><b>■</b> 실제 단어수 &nbsp;|&nbsp; 100점 기준선</div>
+    <div class="orig-lbl">원문 (한국어 단어 카운트)</div>
+    <div class="orig-box">이 책에서 가장 인상 깊었던 내용은 바로 단추 마녀가 벌레를 좋아한다는 사실입니다. 전 처음에 단추 마녀가 벌레를 키우고, 귀여워 하는줄 알았는데 벌레를 먹더라고요..? 그래서 뭔가 옛날 사람인가 싶기도 하고, 너무 싫었습니다. 저도 벌레를 막 징그러워하는건 아니지만, 먹으니까 이상해 보였습니다. 그런데 또 뭔가 이상한게 벌레 맛이 고약해서 좋다는 거에요. 이것도 뭔가 말이 안 이어진다고 생각했습니다.</div>
+    <p class="cnote">54단어로 고학년 (초5·6) 60점 구간에 해당합니다. (100점 기준 100개↑)</p>
+  </div>
+  <div class="pblock">
+    <div class="phead"><span class="ptag pt-so">SO</span><span class="ptitle">논리·구조력</span><span class="pscore ps-so">55점</span></div>
+    <div class="crit">고학년 (초5·6) &nbsp;<b>100점: 주제+근거+결론 완벽 | 85점: 흐름 약간 느슨 | 70점: 1~2문장 이탈 | 55점: 절반 분산 | 40점: 내용 나열</b></div>
+    <div class="hi-legend"><div class="hl-item"><div class="hl-dot hl-g"></div>주제 기여</div><div class="hl-item"><div class="hl-dot hl-b"></div>자기 경험 연결</div></div>
+    <div class="orig-box">
+      <span class="hi-g">이 책에서 가장 인상 깊었던 내용은 바로 단추 마녀가 벌레를 좋아한다는 사실입니다</span> <span class="hi-g">전 처음에 단추 마녀가 벌레를 키우고, 귀여워 하는줄 알았는데 벌레를 먹더라고요..?</span> <span class="hi-g">그래서 뭔가 옛날 사람인가 싶기도 하고, 너무 싫었습니다</span> <span class="hi-b">저도 벌레를 막 징그러워하는건 아니지만, 먹으니까 이상해 보였습니다</span> <span class="hi-g">그런데 또 뭔가 이상한게 벌레 맛이 고약해서 좋다는 거에요</span> <span class="hi-g">이것도 뭔가 말이 안 이어진다고 생각했습니다</span>
+    </div>
+    <div class="anno-list">
+      <div class="anno-row"><span class="anno-icon">✓</span><span class="anno-txt">이 책에서 가장 인상 깊었던 내용은 ~ 벌레를 먹더라고요..?</span><span class="anno-tag tag-g">내용 서술</span></div>
+      <div class="anno-row"><span class="anno-icon">✓</span><span class="anno-txt">그래서 뭔가 옛날 사람인가 싶기도 하고, 너무 싫었습니다</span><span class="anno-tag tag-g">내용 서술</span></div>
+      <div class="anno-row"><span class="anno-icon">★</span><span class="anno-txt">저도 벌레를 막 징그러워하는건 아니지만, 먹으니까 이상해 보였습니다</span><span class="anno-tag tag-b">자기 경험 연결</span></div>
+      <div class="anno-row"><span class="anno-icon">✓</span><span class="anno-txt">그런데 또 뭔가 이상한게 벌레 맛이 고약해서 좋다는 거에요 ~ 말이 안 이어진다고 생각했습니다</span><span class="anno-tag tag-g">내용 서술</span></div>
+    </div>
+    <div class="concl cl-so">SO 채점 결론 &nbsp;—&nbsp; 절반 분산 (절반 분산)</div>
+    <div class="concl-desc">각 문장이 앞 문장과 논리적으로 연결되지 않아 전체 흐름이 하나의 주제로 모이지 않습니다. 55점에 해당합니다.</div>
+  </div>
+  <div class="pblock">
+    <div class="phead"><span class="ptag pt-ci">CI</span><span class="ptitle">비판·사고력</span><span class="pscore ps-ci">55점</span></div>
+    <div class="crit">고학년 (초5·6) &nbsp;<b>100점: 주장+근거+사회맥락 | 85점: 의견+구체장면+자기경험 | 70점: 의견+구체장면 | 55점: 의견만 | 35점: 줄거리만</b></div>
+    <div class="hi-legend"><div class="hl-item"><div class="hl-dot hl-g"></div>줄거리·사실 서술</div><div class="hl-item"><div class="hl-dot hl-b"></div>의견·경험</div></div>
+    <div class="orig-box">
+      <span class="hi-g">이 책에서 가장 인상 깊었던 내용은 바로 단추 마녀가 벌레를 좋아한다는 사실입니다</span> <span class="hi-g">전 처음에 단추 마녀가 벌레를 키우고, 귀여워 하는줄 알았는데 벌레를 먹더라고요..?</span> <span class="hi-b">그래서 뭔가 옛날 사람인가 싶기도 하고, 너무 싫었습니다</span> <span class="hi-b">저도 벌레를 막 징그러워하는건 아니지만, 먹으니까 이상해 보였습니다</span> <span class="hi-g">그런데 또 뭔가 이상한게 벌레 맛이 고약해서 좋다는 거에요</span> <span class="hi-b">이것도 뭔가 말이 안 이어진다고 생각했습니다</span>
+    </div>
+    <div class="anno-list">
+      <div class="anno-row"><span class="anno-icon">✓</span><span class="anno-txt">이 책에서 가장 인상 깊었던 내용은 ~ 벌레를 먹더라고요..?</span><span class="anno-tag tag-g">줄거리·사실 서술</span></div>
+      <div class="anno-row"><span class="anno-icon">✓</span><span class="anno-txt">그래서 뭔가 옛날 사람인가 싶기도 하고, 너무 싫었습니다</span><span class="anno-tag tag-b">의견 표현</span></div>
+      <div class="anno-row"><span class="anno-icon">★</span><span class="anno-txt">저도 벌레를 막 징그러워하는건 아니지만, 먹으니까 이상해 보였습니다</span><span class="anno-tag tag-b">의견·경험·사회맥락</span></div>
+      <div class="anno-row"><span class="anno-icon">✓</span><span class="anno-txt">이것도 뭔가 말이 안 이어진다고 생각했습니다</span><span class="anno-tag tag-b">의견 표현</span></div>
+    </div>
+    <div class="concl cl-ci">CI 채점 결론 &nbsp;—&nbsp; 의견만</div>
+    <div class="concl-desc">의견은 표현했으나 그것을 뒷받침하는 구체적인 장면이나 이유, 자기 경험 연결이 없습니다. 55점에 해당합니다.</div>
+  </div>
+  <div class="pblock">
+    <div class="phead"><span class="ptag pt-hs">HS</span><span class="ptitle">독서 습관</span><span class="pscore ps-hs">59점</span></div>
+    <div class="crit">HS 기준 (전 학년 동일) &nbsp;<b>월별 독서 편차(CV) 자동 계산 · HS = max(40, min(100, 100 − CV × 60))</b></div>
+    <div class="hs-bars">
+      <div class="hs-row"><span class="hs-mo">25-11</span><div class="hs-track"><div class="hs-fill" style="width:56%"></div></div><span class="hs-cnt">10건</span></div>
+      <div class="hs-row"><span class="hs-mo">25-12</span><div class="hs-track"><div class="hs-fill" style="width:89%"></div></div><span class="hs-cnt">16건</span></div>
+      <div class="hs-row"><span class="hs-mo">26-01</span><div class="hs-track"><div class="hs-fill" style="width:100%"></div></div><span class="hs-cnt">18건</span></div>
+      <div class="hs-row"><span class="hs-mo">26-02</span><div class="hs-track"><div class="hs-fill" style="width:33%"></div></div><span class="hs-cnt">6건</span></div>
+      <div class="hs-row"><span class="hs-mo">26-03</span><div class="hs-track"><div class="hs-fill" style="width:33%"></div></div><span class="hs-cnt">6건</span></div>
+      <div class="hs-row"><span class="hs-mo">26-04</span><div class="hs-track"><div class="hs-fill" style="width:6%"></div></div><span class="hs-cnt">1건</span></div>
+    </div>
+    <p class="cnote">CV(변동계수) 높음 (편차 큼) → HS 59점</p>
+    <p class="snote">최다 18건 vs 최소 1건 — 월별 편차가 큰 편입니다.</p>
+  </div>
+  <div class="pblock">
+    <div class="phead"><span class="ptag pt-gs">GS</span><span class="ptitle">장르 균형</span><span class="pscore ps-gs">70점</span></div>
+    <div class="crit">GS 기준 (전 학년 동일) &nbsp;<b>100점: 몰입→확장 | 70점: 몰입만 | 60점: 분산형 | 40점: 무패턴</b></div>
+    <div style="font-size:12px;color:var(--sub);margin-bottom:5px;">장르 분포 (총 57건)</div>
+    <div class="gs-track"><div class="gs-seg gs-lit" style="width:81%">문학 46</div><div class="gs-seg gs-hum" style="width:11%">인문 6</div><div class="gs-seg gs-nat" style="width:9%">자연 5</div></div>
+    <div class="gs-legend">■ 문학 46건 (81%) &nbsp;■ 인문사회 6건 (11%) &nbsp;■ 자연과학 5건 (9%)</div>
+    <p class="cnote" style="margin-top:10px;">슬라이딩 윈도우(최근 20% 구간) → "몰입만" 패턴 → 70점</p>
+    <p class="snote">다른 장르로의 확장이 아직 일어나지 않았습니다. 비문학이 늘면 100점으로 올라갑니다.</p>
+  </div>
+  <!-- 종합의견 -->
+  <div class="summary-block">
+    <div class="summary-cols">
+      <div class="summary-col">
+        <div class="summary-col-title">종합의견</div>
+        <div class="summary-col-body">책에서 가장 흥미로운 요소를 정확히 짚어내고, 자신의 반응을 구어체로 생동감 있게 표현했습니다. "먹더라고요..?"라는 표현에서 실제로 놀란 감정이 생생하게 전달되며, 논리적 모순("고약한 맛인데 좋다는 게 이상하다")을 스스로 포착한 점도 주목할 만합니다.</div>
+      </div>
+      <div class="summary-col">
+        <div class="summary-col-title">앞으로 이렇게 해보세요</div>
+        <div class="summary-col-body">단추 마녀의 벌레 사랑에서 이상함을 느낀 것처럼, 이 책을 통해 어떤 교훈이나 생각을 얻게 됐는지 한 줄 마무리를 써보세요. 예를 들어 "이 책을 읽고 사람마다 좋아하는 것이 다를 수 있다는 걸 느꼈다"처럼요. 마무리 문장 하나가 SO와 CI를 동시에 끌어올려줍니다.</div>
+      </div>
+    </div>
+  </div>
+</div><!-- /김수현 -->
+
+<div class="footer">
+  홈런 문해력 분석 · 문해력 검증 대표 예시 · v1 · 2026.04<br>
+  101명 실제 독후감 중 대필·줄거리 베끼기 제외 · 학년 문체 부합 9명 선별
+</div>
+
+</div><!-- /page -->
+
+
+</body></html>
